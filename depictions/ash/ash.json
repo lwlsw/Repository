@@ -1,0 +1,210 @@
+{
+    "class": "DepictionTabView",
+    "tabs": [{
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [{
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [{
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://repo.litten.love/depictions/ash/assets/ss1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://repo.litten.love/depictions/ash/assets/ss2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://repo.litten.love/depictions/ash/assets/ss3.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot3",
+                            "url": "https://repo.litten.love/depictions/ash/assets/ss4.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Ashley, The Cute Kind Of A Reminder",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.3.3",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "03.28.2020",
+                    "title": "Last Time Updated"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "12.19.2019",
+                    "title": "Released"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developers",
+                    "text": "Litten, MrGcGamer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Twitter",
+                    "action": "https://twitter.com/Litteeen"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Reddit",
+                    "action": "https://reddit.com/user/sh0rtflow"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Github",
+                    "action": "https://github.com/Litteeen"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.3.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Updated Links In Preferences",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.3.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Removed Auto Respring Related Things.. oopsie",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.3.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed The Timer While The Device Was Asleep\r\n- Removed The Need To ReSpring After Using Once",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Timer Option\r\n- Added Voice Lines For Timer\r\n- Added Additional Options For The Timer",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Only HomeScreen Option",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Full iOS 12 Support\r\n- You Can Now Give Each Text A Different Reminder\r\n- Added Reset Button To Quick Access Menu\r\n- Added Ability To Apply Directly To Every Text And Directly Remove Every Reminder\r\n- Compatibility For The Reset Function, Also For Little11 etc\r\n- Added A New Voice Line For Reset And Reset All\r\n- Added Other Compatibility Fixes\r\n- Added Thanks For Installing Alert",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.0.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- The User Can Now Directly Change The Custom Haptic Feedback Instead Of Having To Also Disable The Haptics Animation",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.0",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Initial Release",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ]
+        }
+    ],
+    "headerImage": "https://repo.litten.love/depictions/ash/assets/Banner.png",
+    "tintColor": "#BFDBFB",
+    "minVersion": "0.1"
+}

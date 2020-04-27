@@ -1,0 +1,174 @@
+{
+    "class": "DepictionTabView",
+    "tabs": [{
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [{
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [{
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://repo.litten.love/depictions/tck/assets/ss1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://repo.litten.love/depictions/tck/assets/ss2.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Bring the iOS 13 3D Touch Tick sound to iOS 12 and lower",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.1.3",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "04-06-2020",
+                    "title": "Last Time Updated"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "11-21-2019",
+                    "title": "Released"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Litten",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Twitter",
+                    "action": "https://twitter.com/Litteeen"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Reddit",
+                    "action": "https://reddit.com/user/sh0rtflow"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Github",
+                    "action": "https://github.com/Litteeen"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.1.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed Cephei Dependency",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.1.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Updated Links In Preferences",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.1.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Removed Large Titles, Thanks To WDKFernando",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added iOS 13 Support",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.0.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Icon Design Change",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.0",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Initial Release",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ]
+        }
+    ],
+    "headerImage": "https://repo.litten.love/depictions/tck/assets/Banner.png",
+    "tintColor": "#8c7ae6",
+    "minVersion": "0.1"
+}

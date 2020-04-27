@@ -1,0 +1,711 @@
+{
+    "class": "DepictionTabView",
+    "tabs": [{
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [{
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [{
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss3.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot3",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss4.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot4",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss5.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot5",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss6.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot6",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss7.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Getting peeped by a Rose doesn't feel that good, it’s time to change that",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "5.4",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "04-27-2020",
+                    "title": "Last Time Updated"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "09-28-2019",
+                    "title": "Released"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Litten",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Twitter",
+                    "action": "https://twitter.com/Litteeen"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Reddit",
+                    "action": "https://reddit.com/user/sh0rtflow"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Github",
+                    "action": "https://github.com/Litteeen"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.4",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Spotify Playlist Buttons Feedback\r\n- Respring Buttons Now Resprings Back Into Rose's Settings",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.3.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Updated Links\r\n- Fixed Respring In Settings",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Performance Improvements, Rose Now Uses Its Own Library For Haptics\r\n- Added Arabic Translation",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.2.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Japanese Translation\r\n- Added Korean Translation\r\n- Added Vietnamese Translation\r\n- Temporarily Removed Sileo Support",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.2.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Spanish Translation\r\n- Improved German Translation",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.2.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Hungarian Translation\r\n- More Detailed Contributors Credits",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Huge performance Improvements\r\n- Added Sileo Get Button Support\r\n- Added Some System Wide Haptics Back\r\n- Added Ability To Translate Rose\r\n- Added Chinese Translation\r\n- Added German Translation\r\n- Added Other Tweaks Cells\r\n- Added Translations Help Cell\r\n- Added Contributors Sub Menu\r\n- Fixed iOS 12 Preferences Crash\r\n- Removed Warnings\r\n- Removed Touches Feature",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Preferences Design Changes\r\n- Changed The Artworks\r\n- Little Setup Screen Design Change\r\n- Added Connect Bluetooth Device In Settings Haptics\r\n- Fixed Call Connect Haptics\r\n- Respring Now Resprings Back Into Rose’s Preferences",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.0.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed An Issue When Toggling DND",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.0.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed App Crashes\r\n- Made The Haptics Trigger A Little More Reliable",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.0",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Setup\r\n- Added Respring Button\r\n- Added Reset Button\r\n- Added Apollo Support\r\n- Added Folder Open Haptics\r\n- Added Folder Close Feedback\r\n- Added DND Mode Exception\r\n- Added Alert Appear Haptics\r\n- Added Alert Disappear Haptics\r\n- Added Instagram Double Tap To Like Haptics\r\n- Re-Added Large Titles\r\n- Add Certain System wide Haptics Back\r\n- Fix The Haptic Lock Animation Playing When LMP + Switch Is Enabled\r\n- Other Bug Fixes\r\n- Removed A Typo In The DRM Alert\r\n- Removed Feature Warning\r\n- Removed System Wide Hooks\r\n- Removed Rose Activator Action\r\n- Performance Improvements\r\n- Improved Siri Haptics\r\n- Improved MPButton And MPRoutebutton Haptics For Music\r\n- Rewrote The Custom Haptics Prepare Method\r\n- Code Look Improvements\r\n- Improvements In The Code\r\n- Make Low Power Mode Detection More Reliable\r\n Design Changes In The Preferences\r\n- Redesigned Sub Menus\r\n- Sorted The Supported Apps List Alphabetically\r\n- The Delay Slider Does Now Support Milliseconds\r\n- Moved Killing App And App Switcher Switch Into Anywhere\r\n- Renamed Extras Cell To Additionals\r\n- Moved Custom Unlock Strength Cell Up",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.5",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Introducing A New Feature: Haptic Animations",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.4",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Lockscreen Quick Actions Button Support For Older Devices",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Legacy Device Support (iPhone SE, 6..)\r\n- Moved Taptic Engine Settings To The Top\r\n- Removed Some Unnecessary Code",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.2.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed Authentication Feedback On iOS 13",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.2.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed The DRM Alert",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.2.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed Double Haptics For App Kills On iOS 12",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Killing App iOS 13 Support\r\n- Added Haptics When Entering HomeScreen",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.1.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Removed Large Titles, Thanks To WDKFernando",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.1.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed The Problem Where Users Couldn't Toggle Things And The Tweak Doesn't Work",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Music Support\r\n- Added Calculator Support\r\n- Added Sileo Support\r\n- Added Spotify Mini-Player Play Button Support\r\n- Changed Preferences Banner",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 4.0",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added The Ability To Change The Feedback Strength For Every Option Individually\r\n- Fixed ReSpring Loop When Re-/Jailbreaking\r\n- Added Some Comments To The Source Code\r\n- Some Code Clean-Up",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.6",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Option To Disable Rose When Low Power Mode Is On\r\n- Added Facebook Support\r\n- Moved Applications Cell below iOS System Wide Hooks\r\n- File Clean-Up Behind The Scenes",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.5.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Removed libpackageinfo Dependency\r\n- Merged Others Menu Into Anywhere\r\n- Preparations for 3.6",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.5.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed Default Delay Option\r\n- Improved Compatbility Warning For New Users\r\n- Added Warning For Devices On iOS 12 to prevent using Soft Or Rigid Mode",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.5.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Nepeta DRM\r\n- Added Thanks For Installing Alert\r\n- Added Tweak Compatibilty Check/Alert",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.5",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added iOS System Wide Hook Options",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.4",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Delay Option\r\n- Added Phone App Support\r\n- Added Safari Support\r\n- Potential Taptic Engine Performance Upgrade\r\n- Made The Bottom Text Prettier",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Twitter Feedback Actions\r\n- Added Send Button Feedback For Instagram\r\n- Renamed TikTok Cell\r\n- Removed Some Not Working Instagram Cells",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Spotify Feedback Options\r\n- Added Instagram Feedback Options\r\n- Added TikTok Feedback Options\r\n- Renamed Call Cell\r\n- Renamed Typing Cell\r\n- Added Emojis To Link Cells\r\n- Changed The Text At The Bottom Of The Preferences",
+                    "useSpacing": false
+                },{
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added CC Module Feeback (Experimental)\r\n- Added Open Control Center Feedback\r\n- Added Feature Request Button\r\n- Removed Open/Close App.. Feedback\r\n- Renamed Toggling CC Module to Toggling Connectivity Module\r\n- Changed Preferences Banner\r\n- Rearranged Some Cells",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.0.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added donate button\r\n- Rearranged some cells",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.0.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- fixed app crashes when the app forced the light keyboard\r\n- added bug report button",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.0",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Taptic Engine Support\r\n- Text selection buttons Feedback\r\n- Open Spotlight Search Feedback\r\n- Call/FaceTime Status Changed\r\n- Authenticated with Touch/FaceID\r\n- Sleep Button Feedback\r\n- Custom Activator Gesture (external package)\r\n- Screen Wake Feedback\r\n- Home Button Feedback\r\n- Advanced Shutdown warning (iOS 12)\r\n- Icon Tap Feedback\r\n- Feedback whenever you touch the screen\r\n- Feature Warning\r\n- Sub-Menus in settings\r\n- iOS 13 Support",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.0-beta-2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Improved Activator Gesture Feedback\r\n- Screen Wake Feedback\r\n- Home Button Feedback\r\n- Advanced Shutdown Warning\r\n- Icon Tap Feedback\r\n- Feedback Whenever You Touch The Screen",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 3.0-beta-1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Taptic Engine Support\r\n- Using Text selection Feedback\r\n- Open Spotlight Search Feedback\r\n- Call/FaceTime Status Changed\r\n- Authenticated with Touch/FaceID\r\n- Sleep Button Feedback\r\n- Custom Activator Gesture",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 2.2.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Feedback When Using Keyboard - Typing\r\n- Feedback When Entering Passcode/View\r\n- Feedback When Taking A Screenshot\r\n- Feedback When Unmuting\r\n- Feedback When Begin/End Reachability\r\n- Proper Credits",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 2.1.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- New Beautiful Preferences (Thanks To EsquilliDev For Teaching Me)\r\n- Feedback When Toggling CC Module\r\n- Feedback When Opening/Closing Folder\r\n- Feedback When Open/Close App, CC, NC\r\n- Feedback When Swiping To Next Page\r\n- Added Ability To Change Feedback Strength",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 2.0",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Siri Feedback",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.9",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added App Switcher Feedback",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.8",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Capitalised Preference Labels",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.7",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Feedback When Charger Plugged In/Out",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.6",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed Volume Not Changing\r\n- Added 3DTouch Action Feedback\r\n- Added Wake Feedback",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ]
+        }
+    ],
+    "headerImage": "https://repo.litten.love/depictions/rse/assets/Banner.png",
+    "tintColor": "#8FA9C9",
+    "minVersion": "0.1"
+}

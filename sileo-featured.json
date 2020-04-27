@@ -1,0 +1,43 @@
+{  
+   "class":"FeaturedBannersView",
+   "itemSize":"{263, 148}",
+   "itemCornerRadius":10,
+   "banners":[  
+      {  
+         "url":"https://repo.litten.love/depictions/rse/assets/Banner.png",
+         "title":"Rose",
+         "package":"sh.litten.rose",
+         "hideShadow":true
+      },
+      {  
+         "url":"https://repo.litten.love/depictions/lne/assets/Banner.png",
+         "title":"Lune",
+         "package":"sh.litten.lune",
+         "hideShadow":true
+      },
+      {  
+         "url":"https://repo.litten.love/depictions/bty/assets/Banner.png",
+         "title":"Butterfly",
+         "package":"sh.litten.butterfly",
+         "hideShadow":true
+      },
+      {  
+         "url":"https://repo.litten.love/depictions/aes/assets/Banner.png",
+         "title":"Aestea",
+         "package":"sh.litten.aestea",
+         "hideShadow":true
+      },
+      {  
+         "url":"https://repo.litten.love/depictions/nve/assets/Banner.png",
+         "title":"Nevve",
+         "package":"sh.litten.nevve",
+         "hideShadow":true
+      },
+      {  
+         "url":"https://repo.litten.love/depictions/mdy/assets/Banner.png",
+         "title":"Melody",
+         "package":"sh.litten.melody",
+         "hideShadow":true
+      }
+   ]
+}
