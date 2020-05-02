@@ -41,12 +41,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.3.3",
+                    "text": "1.3.4",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "03.28.2020",
+                    "text": "04.28.2020",
                     "title": "Last Time Updated"
                 },
                 {
@@ -89,6 +89,20 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.3.4",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- New Preferences Design\r\n- Changed One Link",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
                 {   
                     "class": "DepictionSubheaderView",
                     "title": "Version 1.3.3",

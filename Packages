@@ -108,6 +108,25 @@ Icon: https://repo.litten.love/depictions/aes/assets/icon.png
 Name: Aestea
 Sileodepiction: https://repo.litten.love/depictions/aes/aes.json
 
+Package: sh.litten.aestea
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 688
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13), com.spark.libsparkcolourpicker
+Filename: ./debs/sh.litten.aestea_1.1.4_iphoneos-arm.deb
+Size: 358822
+MD5sum: 4c57006856f8b1c85f138ac2551571ab
+SHA1: e5b2bda91c7eebefbb8168a09fe9568e2b21d204
+SHA256: ea3eb8684ad8f590cbf81021c66f5c145d32fc5912d281fe553a8eff7e746534
+Section: Tweaks
+Description: An Aesthetic Look To Your Loved Connectivity Toggles
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/aes/index.html
+Icon: https://repo.litten.love/depictions/aes/assets/icon.png
+Name: Aestea 🌊
+Sileodepiction: https://repo.litten.love/depictions/aes/aes.json
+
 Package: sh.litten.anchor-bootlogo
 Version: 1.0
 Architecture: iphoneos-arm
@@ -271,6 +290,25 @@ Icon: https://repo.litten.love/depictions/ash/assets/icon.png
 Name: Ashley 💞
 Sileodepiction: https://repo.litten.love/depictions/ash/ash.json
 
+Package: sh.litten.ashley
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: Litten, MrGcGamer <hiya@litten.love>
+Installed-Size: 2212
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11), ws.hbang.common (>= 1.14)
+Filename: ./debs/sh.litten.ashley_1.3.4_iphoneos-arm.deb
+Size: 1023584
+MD5sum: 8bfbc896efb9b929ba50e9131ac7fcd9
+SHA1: 7f930a055149c01f9ffe2063f683b526bc4b0d50
+SHA256: bf381526f367bdd27506429d3c88f48a8474d60c51d6f9b32846bdb925565bea
+Section: Tweaks
+Description: Ashley, The Cute Kind Of A Reminder
+Author: Litten, MrGcGamer <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/ash/index.html
+Icon: https://repo.litten.love/depictions/ash/assets/icon.png
+Name: Ashley 💞
+Sileodepiction: https://repo.litten.love/depictions/ash/ash.json
+
 Package: sh.litten.assassinscreed-bootlogo
 Version: 1.0
 Architecture: iphoneos-arm
@@ -394,6 +432,44 @@ Size: 361908
 MD5sum: 39020c19c987f237bc85ce10788ce0b7
 SHA1: 37df2f6f0907af7b621f60f45d42789d14a31554
 SHA256: 7bf88e38ef77f5f7875c74ef571af8c0ec277f5d1021d88a8a052ddde2f2c615
+Section: Tweaks
+Description: Text Selection Colors Flying Around Everywhere
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/bty/index.html
+Icon: https://repo.litten.love/depictions/bty/assets/icon.png
+Name: Butterfly 🦋
+Sileodepiction: https://repo.litten.love/depictions/bty/bty.json
+
+Package: sh.litten.butterfly
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 672
+Depends: mobilesubstrate, preferenceloader, firmware (>= 9), ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Filename: ./debs/sh.litten.butterfly_1.1.2_iphoneos-arm.deb
+Size: 361940
+MD5sum: 07ae136951b44dd9194e123e55d5e276
+SHA1: 708bf45546ce9e464896887ead254ff24553f978
+SHA256: 486be6d10cb4e77ed6df31ce766571db0e7223a65258f7d3daa8dafe496f1cfe
+Section: Tweaks
+Description: Text Selection Colors Flying Around Everywhere
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/bty/index.html
+Icon: https://repo.litten.love/depictions/bty/assets/icon.png
+Name: Butterfly 🦋
+Sileodepiction: https://repo.litten.love/depictions/bty/bty.json
+
+Package: sh.litten.butterfly
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 672
+Depends: mobilesubstrate, preferenceloader, firmware (>= 9), ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Filename: ./debs/sh.litten.butterfly_1.1.3_iphoneos-arm.deb
+Size: 361766
+MD5sum: e14541c2c23a28929b7abe3e81060c5b
+SHA1: 056d05fd1932cb7594fbe65e2286dd756420c1cf
+SHA256: b6edcd28cc95dc3f43686785d0b0b5dcbf2c789c1c45e1a691dd1ef4fae0b7b0
 Section: Tweaks
 Description: Text Selection Colors Flying Around Everywhere
 Author: Litten <hiya@litten.love>
@@ -700,6 +776,26 @@ Icon: https://repo.litten.love/depictions/lne/assets/icon.png
 Name: Lune 🌙
 Sileodepiction: https://repo.litten.love/depictions/lne/lne.json
 
+Package: sh.litten.lune
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12)
+Conflicts: com.junesiphone.lockpluspro, com.xcxiao.simplels2
+Filename: ./debs/sh.litten.lune_1.4.2_iphoneos-arm.deb
+Size: 598174
+MD5sum: 814062ba454db20c6174c435fe158e84
+SHA1: 6002b994f63fe12bd6fd0ded267644fdf9c9272a
+SHA256: 65299cb2483685ecaaeae2b61cef6699709f73fec19591bad2c676936ceaf12a
+Section: Tweaks
+Description: Twinkle, Twinkle, Little Star
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/lne/index.html
+Icon: https://repo.litten.love/depictions/lne/assets/icon.png
+Name: Lune 🌙
+Sileodepiction: https://repo.litten.love/depictions/lne/lne.json
+
 Package: sh.litten.melody
 Version: 1.0-lovely
 Architecture: iphoneos-arm
@@ -768,6 +864,44 @@ Size: 305968
 MD5sum: 11981297e3529b74fc0cb782e680d8dc
 SHA1: acbce405f2f4c1acffa454d14a6e1f4afe918628
 SHA256: 3f4f8fe5676aa8e06930e4e5feb1488fef800af6efa99e88e4347e25ea970aae
+Section: Tweaks
+Description: Can You Hear Those Colorful Melodies?
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/mdy/index.html
+Icon: https://repo.litten.love/depictions/mdy/assets/icon.png
+Name: Melody 🎶
+Sileodepiction: https://repo.litten.love/depictions/mdy/mdy.json
+
+Package: sh.litten.melody
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 732
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11), ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Filename: ./debs/sh.litten.melody_1.2.2_iphoneos-arm.deb
+Size: 397382
+MD5sum: 98cf54e69d54b7edbc2b50ccde708069
+SHA1: e72586af0da4ec3fe9cac2664a89f76d5a736de7
+SHA256: 51f914a3b882396f0b9ea10ad3fda55d081f797450d1b2f502e78c9c10179bfd
+Section: Tweaks
+Description: Can You Hear Those Colorful Melodies?
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/mdy/index.html
+Icon: https://repo.litten.love/depictions/mdy/assets/icon.png
+Name: Melody 🎶
+Sileodepiction: https://repo.litten.love/depictions/mdy/mdy.json
+
+Package: sh.litten.melody
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 732
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11), ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Filename: ./debs/sh.litten.melody_1.2.3_iphoneos-arm.deb
+Size: 397390
+MD5sum: ff3f56854818da0061ba8080105ff5d8
+SHA1: 41aa3f30744261feefa551beecf8857a609daaa9
+SHA256: 09eb7971b475088a7e335083637be59b770617e62125b46773460c8360070a7a
 Section: Tweaks
 Description: Can You Hear Those Colorful Melodies?
 Author: Litten <hiya@litten.love>
@@ -977,6 +1111,25 @@ Size: 353988
 MD5sum: d12c052db1a028fa753f3e3912899516
 SHA1: 16dd6108e555c9ff37a0361fcd70c1d3e51dcdfe
 SHA256: eede6ccd7e5ced114c759c1bdc2ce8e54b715f5ccc2e9ee99c977fcab382b85e
+Section: Tweaks
+Description: Sounds Falling Down To Your Device
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/nve/index.html
+Icon: https://repo.litten.love/depictions/nve/assets/icon.png
+Name: Nevve ❄️
+Sileodepiction: https://repo.litten.love/depictions/nve/nve.json
+
+Package: sh.litten.nevve
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 828
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11), ws.hbang.common (>= 1.14)
+Filename: ./debs/sh.litten.nevve_1.1.4_iphoneos-arm.deb
+Size: 446270
+MD5sum: a5fd8743c12314bfe5301b4e3e815dee
+SHA1: 0babda5cda1c8d2d60e0dd25b7fb29fcfd59cecd
+SHA256: ccb83a0c7a703d957066ba7e55fc603e15ff0017a38e209672e24e81442b5cbf
 Section: Tweaks
 Description: Sounds Falling Down To Your Device
 Author: Litten <hiya@litten.love>
@@ -1544,6 +1697,25 @@ Size: 562178
 MD5sum: 32612b1c3cf1a0661a431a8b12c8c9c4
 SHA1: 6b1067e710b0b7f0803e68aa09bd34954fc1d0b8
 SHA256: 59a53d0a3928cff9ae08c14a142cf28881ac721ee3178efd907ef9c49fbfe184
+Section: Tweaks
+Description: Being Peeped By A Rose Doesn't Feel That Good, It's Time To Change That
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/rse/index.html
+Icon: https://repo.litten.love/depictions/rse/assets/icon.png
+Name: Rose 🌹
+Sileodepiction: https://repo.litten.love/depictions/rse/rse.json
+
+Package: sh.litten.rose
+Version: 5.4.1
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 4496
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/sh.litten.rose_5.4.1_iphoneos-arm.deb
+Size: 535016
+MD5sum: c343ae0e00c882afa75f8079489c0675
+SHA1: 37613895657506a025e5b71ff05613d090ddc351
+SHA256: d852d5fc73dd7976bc240061f53887c6b7a875dc7117f581159bebbe1df1361a
 Section: Tweaks
 Description: Being Peeped By A Rose Doesn't Feel That Good, It's Time To Change That
 Author: Litten <hiya@litten.love>

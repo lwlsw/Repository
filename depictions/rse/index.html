@@ -2,469 +2,1421 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Litten | Repository</title>
-
+    
     <style>
 
-        body,html {
-
-        margin: 0;
-        padding: 0;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        cursor: default;
-        background-color: #000000;
-
-        }
-    
-    body {
-
-        background-image: url("https://repo.litten.love/depictions/assets/background.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-
-    }
-
-    #PackageTitle {
-
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-        font-size: 40px;
-        transform: translateY(70px);
-        color: #ffffff;
-        opacity: 0.7;
-
-    }
-
-    #descriptionTitle {
-
-        text-align: center;
-        font-size: 34px;
-        font-weight: 600;
-        transform: translateY(80px);
-        opacity: 0.6;
-        color: #ffffff;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    }
-
-    #description {
-
-        text-align: center;
-        font-size: 21px;
-        margin-left: 25px;
-        margin-right: 25px;
-        opacity: 0.6;
-        transform: translateY(65px);
-        color: #ffffff;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    }
-
-    #screenshotsTitle {
-
-        text-align: center;
-        margin-left: 25px;
-        font-size: 30px;
-        font-weight: 600;
-        transform: translateY(85px);
-        opacity: 0.6;
-        color: #ffffff;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    }
-
-    .ssList {
-
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        transform: translateY(90px);
-
-    }
-
-    .ssList li {
-
-        list-style: none;
-        display: inline;
-
-    }
-
-    .ssList li img {
-
-        height: 220px;
-        width: auto;
-        border-radius: 5px;
-
-    }
-
-    #changelog {
-
-        text-align: center;
-        font-size: 28px;
-        font-weight: 600;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        transform: translateY(80px);
-
-    }
-
-    #changelog a {
-
-        text-decoration: none;
-        color: #ffffff;
-        opacity: 0.6;
-
-    }
-
-    .followList {
-
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        transform: translateY(100px);
-
-    }
-
-    .followList li {
-
-        display: inline;
-        padding: 10px;
-
-    }
-
-    .followList li a {
-
-        color: #ffffff;
-        opacity: 0.6;
-        font-size: 24px;
-        font-weight: 500;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-decoration: none;
-
-    }
-
-    @media only screen and (max-width: 1366px) {
-
-#PackageTitle {
-
-font-size: 44px;
-transform: translateY(70px);
-
-}
-
-#descriptionTitle {
-
-font-size: 38px;
-transform: translateY(80px);
-
-}
-
-#description {
-
-font-size: 25px;
-transform: translateY(65px);
-
-}
-
-#screenshotsTitle {
-
-font-size: 34px;
-transform: translateY(85px);
-text-align: center;
-margin-left: 0px;
-
-}
-
-.ssList li img {
-
-height: 450px;
-width: auto;
-
-}
-
-#changelog {
-
-font-size: 32px;
-transform: translateY(80px);
-
-}
-
-}
-
-    @media only screen and (max-width: 1112px) {
-
-#PackageTitle {
-
-font-size: 40px;
-transform: translateY(70px);
-
-}
-
-#descriptionTitle {
-
-font-size: 34px;
-transform: translateY(80px);
-
-}
-
-#description {
-
-font-size: 21px;
-transform: translateY(65px);
-
-}
-
-#screenshotsTitle {
-
-font-size: 30px;
-transform: translateY(85px);
-text-align: center;
-margin-left: 0px;
-
-}
-
-.ssList li img {
-
-height: 350px;
-width: auto;
-
-}
-
-#changelog {
-
-font-size: 28px;
-transform: translateY(80px);
-
-}
-
-}
-
-    @media only screen and (max-width: 1024px) {
-
-#PackageTitle {
-
-font-size: 36px;
-transform: translateY(70px);
-
-}
-
-#descriptionTitle {
-
-font-size: 30px;
-transform: translateY(80px);
-
-}
-
-#description {
-
-font-size: 17px;
-transform: translateY(65px);
-
-}
-
-#screenshotsTitle {
-
-font-size: 26px;
-transform: translateY(85px);
-text-align: center;
-margin-left: 0px;
-
-}
-
-.ssList li img {
-
-height: 300px;
-width: auto;
-
-}
-
-#changelog {
-
-font-size: 24px;
-transform: translateY(80px);
-
-}
-
-}
-
-@media only screen and (max-width: 414px) {
-
-#PackageTitle {
-
-font-size: 40px;
-transform: translateY(70px);
-
-}
-
-#descriptionTitle {
-
-font-size: 34px;
-transform: translateY(80px);
-
-}
-
-#description {
-
-font-size: 21px;
-transform: translateY(65px);
-
-}
-
-#screenshotsTitle {
-
-font-size: 30px;
-transform: translateY(85px);
-
-}
-
-.ssList li img {
-
-height: 220px;
-width: auto;
-
-}
-
-#changelog {
-
-font-size: 28px;
-transform: translateY(80px);
-
-}
-
-}
-
-    @media only screen and (max-width: 375px) {
-
-        #PackageTitle {
-
-        font-size: 36px;
-        transform: translateY(70px);
+        html, body {
+
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            cursor: default;
+            user-select: none;
+            -webkit-user-select: none;
+            background-image: url("assets/background.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            -webkit-font-smoothing: antialiased;
 
         }
 
-#descriptionTitle {
+        .about .container {
 
-        font-size: 30px;
-        transform: translateY(80px);
-
-        }
-
-        #description {
-
-        font-size: 17px;
-        transform: translateY(65px);
+            text-align: center;
+            transform: translateY(-60px);
 
         }
 
-#screenshotsTitle {
+        .about .container #icon {
 
-        font-size: 26px;
-        transform: translateY(85px);
-
-        }
-
-        .ssList li img {
-
-        height: 200px;
-        width: auto;
+            height: 240px;
+            width: auto;
+            border-radius: 250px;
+            border: 3px solid #fff;
+            box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, .2);
+            vertical-align: middle;
+            margin-right: 50px;
 
         }
 
-#changelog {
+        /* CHANGE OPACITY AND TRANSFORM HERE IF NEEDED */
 
-        font-size: 24px;
-        transform: translateY(80px);
+        .about .container #header, #shortDescription {
 
-        }
-
-    }
-
-    @media only screen and (max-width: 320px) {
-
-        #PackageTitle {
-
-        font-size: 32px;
-        transform: translateY(70px);
+            font-size: 60px;
+            font-weight: 600;
+            color: #fff; /* if white is hard to see use #b7b7b7 */
+            opacity: .8; /* <- */
+            display: inline-block;
+            padding-top: 40px;
+            padding-left: 0px;
+            transform: translateY(120px); /* <- */
+            text-align: left;
 
         }
 
-        #descriptionTitle {
+        .about .container #shortDescription {
 
-        font-size: 26px;
-        transform: translateY(80px);
-
-        }
-
-        #description {
-
-        font-size: 13px;
-        transform: translateY(65px);
+            font-size: 28px;
+            font-weight: normal;
+            transform: translateY(-40px);
 
         }
 
-        #screenshotsTitle {
+        .about .container .more {
 
-        font-size: 22px;
-        transform: translateY(85px);
-
-        }
-
-        .ssList li img {
-
-        height: 170px;
-        width: auto;
+            position: absolute;
+            top: 50px;
+            right: 20px;
 
         }
 
-        #changelog {
+        .about .container .more #dots {
 
-        font-size: 20px;
-        transform: translateY(80px);
-
-        }
-
-        .followList li a {
-
-        font-size: 22px;
+            height: 45px;
+            width: auto;
+            padding: 20px;
+            transition: 150ms;
 
         }
 
-}
-        
+        .screenshots .container .ssList {
+
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            margin-right: 200px;
+            margin-left: 200px;
+            overflow-x: scroll;
+            white-space: nowrap;
+            height: 470px;
+            transform: translateY(-20px);
+
+        }
+
+        .screenshots .container li {
+
+            display: inline;
+            padding: 20px;
+
+        }
+
+        .screenshots .container li img {
+
+            height: 440px;
+            width: auto;
+            border-radius: 10px;
+
+        }
+
+        .moreLinks {
+
+            display: none;
+            text-align: center;
+
+        }
+
+        .moreLinks .container .links {
+
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 22px;
+            right: 100px;
+
+        }
+
+        .moreLinks .container .links li {
+
+            display: inline;
+
+        }
+
+        .moreLinks .container .links li a {
+
+            text-decoration: none;
+            color: #fff;
+            background-color: rgb(255, 120, 153);
+            padding: 5px 15px 5px 15px;
+            border-radius: 30px;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 600;
+
+        }
+
+        a:hover {
+
+            cursor: pointer;
+
+        }
+
+        .moreInfo .container {
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 255, 255, .5);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+
+        }
+
+        .moreInfo .container #closeButton {
+
+            position: fixed;
+            top: 20px;
+            right: 40px;
+            height: 50px;
+            width: auto;
+            border: 2px solid #fff;
+            border-radius: 100px;
+
+        }
+
+        .moreInfo {
+
+            display: none;
+
+        }
+
+        .moreInfo .container {
+
+            text-align: center;
+            overflow-y: scroll;
+
+        }
+
+        .moreInfo .container .sectionHeader {
+
+            text-align: center;
+
+        }
+
+        .moreInfo .container ul {
+
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .moreInfo .container ul li span {
+
+            font-weight: 600;
+            text-transform: capitalize;
+
+        }
+
+        .moreInfo .container .details {
+
+            display: none;
+            margin-top: 100px;
+            margin-bottom: 100px;
+
+        }
+
+        .moreInfo .container .changelog {
+
+            display: none;
+            margin-top: 100px;
+            margin-bottom: 100px;
+
+        }
+
+        li {
+
+            text-decoration: none;
+            list-style: none;
+
+        }
+
+        .moreInfo .container .changelog .versionNumber {
+
+            font-weight: 600;
+
+        }
+
+        @media only screen and (max-width: 1366px) {
+
+            .about .container {
+
+                text-align: center;
+                transform: translateY(-80px);
+
+            }
+
+            .about .container #icon {
+
+                height: 200px;
+
+            }
+
+            .about .container #header, #shortDescription {
+
+                font-size: 52px;
+                opacity: .9;
+
+            }
+
+            .about .container #shortDescription {
+
+                font-size: 26px;
+
+            }
+
+            .about .container .more {
+
+                top: 70px;
+
+            }
+
+            .screenshots .container .ssList {
+
+                height: 440px;
+                transform: translateY(-30px);
+
+            }
+
+            .screenshots .container li {
+
+                padding: 15px;
+
+            }
+
+            .screenshots .container li img {
+
+                height: 400px;
+
+            }
+
+        }
+
+        @media only screen and (max-width: 1112px) {
+
+            .screenshots .container .ssList {
+
+                margin-right: 150px;
+                margin-left: 150px;
+                height: 440px;
+
+            }
+
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            .about .container #icon {
+
+                height: 170px;
+
+            }
+
+            .about .container #header, #shortDescription {
+
+                font-size: 42px;
+                transform: translateY(100px);
+
+            }
+
+            .about .container #shortDescription {
+
+                font-size: 23px;
+
+            }
+
+            .screenshots .container .ssList {
+
+                height: 300px;
+                margin-right: 100px;
+                margin-left: 100px;
+                transform: translateY(-40px);
+
+            }
+
+            .screenshots .container li {
+
+                padding: 10px;
+
+            }
+
+            .screenshots .container li img {
+
+                height: 270px;
+
+            }
+
+        }
+
+        @media only screen and (max-width: 414px) {
+
+            .about .container {
+
+                transform: translateY(40px);
+
+            }
+
+            .about .container #icon {
+
+                height: 150px;
+                margin-right: 0px;
+
+            }
+
+            .about .container #header, #shortDescription {
+
+                font-size: 48px;
+                transform: translateY(-30px);
+                text-align: center;
+
+            }
+
+            .about .container #shortDescription {
+
+                font-size: 26px;
+
+            }
+
+            .about .container .more {
+
+                top: -45px;
+
+            }
+
+            .screenshots .container .ssList {
+
+                margin-right: 50px;
+                margin-left: 50px;
+                height: 280px;
+                transform: translateY(10px);
+
+            }
+
+            .screenshots .container li {
+
+                padding: 5px;
+
+            }
+
+            .screenshots .container li img {
+
+                height: 250px;
+
+            }
+
+            .moreLinks .container .links {
+
+                top: 60px;
+                right: 10px;
+
+            }
+
+            .moreLinks .container .links li {
+
+                display: block;
+                line-height: 40px;
+
+            }
+
+            .moreInfo .container .details {
+
+                margin: 50px;
+
+            }
+
+            .moreInfo .container .changelog {
+
+                margin: 50px;
+
+            }
+
+        }
+
+        @media only screen and (max-width: 375px) {
+
+            .about .container #icon {
+
+                height: 140px;
+
+            }
+
+            .about .container #header, #shortDescription {
+
+                font-size: 46px;
+
+            }
+
+            .about .container #shortDescription {
+
+                font-size: 24px;
+
+            }
+
+            .screenshots .container .ssList {
+
+                margin-right: 40px;
+                margin-left: 40px;
+                height: 270px;
+                transform: translateY(0px);
+
+            }
+
+            .screenshots .container li img {
+
+                height: 240px;
+
+            }
+
+            .moreInfo .container .details {
+
+                margin: 40px;
+
+            }
+
+            .moreInfo .container .changelog {
+
+                margin: 40px;
+
+            }
+
+        }
+
+        @media only screen and (max-width: 320px) {
+
+            .about .container #icon {
+
+                height: 120px;
+
+            }
+
+            .about .container #header, #shortDescription {
+
+                font-size: 42px;
+
+            }
+
+            .about .container #shortDescription {
+
+                font-size: 22px;
+
+            }
+
+            .about .container .more {
+
+                top: -55px;
+                right: 5px;
+
+            }
+
+            .screenshots .container .ssList {
+
+                margin-right: 30px;
+                margin-left: 30px;
+                height: 230px;
+                transform: translateY(-10px);
+
+            }
+
+            .screenshots .container li img {
+
+                height: 200px;
+
+            }
+
+            .moreLinks .container .links {
+
+                top: 40px;
+
+            }
+
+            .moreLinks .container .links li {
+
+                display: block;
+
+            }
+
+            .moreLinks .container .links li a {
+
+                font-size: 18px;
+
+            }
+
+            .moreInfo .container #closeButton {
+
+                height: 45px;
+
+            }
+
+            .moreInfo .container .details {
+
+                margin: 30px;
+
+            }
+
+            .moreInfo .container .changelog {
+
+                margin: 30px;
+
+            }
+
+        }
+
     </style>
 
 </head>
 <body>
+
+    <div class="about">
+        <div class="container">
+
+            <img id="icon" src="assets/icon.png" draggable="false">
+            <span id="header">Rose<br>
+            <span id="shortDescription">
+                Getting peeped by a Rose<br>
+                doesn’t feel that good,<br>
+                it’s time to change that</span></span>
+
+                <div class="more">
+
+                    <img id="dots" src="https://litten.love/assets/dots.png" draggable="false" onclick="showMoreLinks()">
+
+                </div>
+
+        </div>
+    </div>
+
+    <div class="screenshots">
+        <div class="container">
+
+            <ul class="ssList">
+
+                <li><a href="assets/ss1.png"><img src="assets/ss1.png" draggable="false"></a></li>
+                <li><a href="assets/ss2.png"><img src="assets/ss2.png" draggable="false"></a></li>
+                <li><a href="assets/ss3.png"><img src="assets/ss3.png" draggable="false"></a></li>
+                <li><a href="assets/ss4.png"><img src="assets/ss4.png" draggable="false"></a></li>
+                <li><a href="assets/ss5.png"><img src="assets/ss5.png" draggable="false"></a></li>
+                <li><a href="assets/ss6.png"><img src="assets/ss6.png" draggable="false"></a></li>
+                <li><a href="assets/ss7.png"><img src="assets/ss7.png" draggable="false"></a></li>
+                <li><a href="assets/ss8.png"><img src="assets/ss8.png" draggable="false"></a></li>
+                <li><a href="assets/ss9.png"><img src="assets/ss9.png" draggable="false"></a></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="moreLinks" id="moreLinks">
+        <div class="container">
+
+            <ul class="links">
+
+                <li><a onclick="showMoreInfo(0)">more info</a></li>
+                <li><a onclick="showMoreInfo(1)">changelog</a></li>
+                <li><a href="https://twitter.com/intent/follow?screen_name=litteeen">twitter</a></li>
+                <li><a href="https://www.reddit.com/user/sh0rtflow">reddit</a></li>
+                <li><a href="https://github.com/Litteeen">github</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="moreInfo" id="moreInfo">
+        <div class="container">
+
+            <img id="closeButton" src="https://litten.love/assets/closeButton.png" onclick="showMoreInfo(3)" draggable="false">
+
+            <div class="details" id="details">
+
+                <h1>Rose</h1>
+
+                <h1 class="sectionHeader">Features:</h1>
+                <ul>
+                    
+                    <h3>Haptic Modes:</h3>
+                    <li><span>taptic engine modes:</span> light, medium, heavy, soft, rigid</li>
+                    <li><span>haptic engine modes:</span> light, medium, strong</li>
+                    <li><span>legacy engine modes:</span> default, custom</li>
+                    <h4>Custom Legacy Mode Options:</h4>
+                    <li>- Custom Duration</li>
+                    <li>- Custom Strength</li>
+
+                    <h3>Homescreen Haptics:</h3>
+                    <li>- 3D touch action/dismisses (iOS 12 only)</li>
+                    <li>- opening folder</li>
+                    <li>- closing folder</li>
+                    <li>- tapping icon</li>
+                    <li>- swiping to next/ previous page</li>
+                    <li>- opening spotlight search</li>
+
+                    <h3>Lockscreen Haptics:</h3>
+                    <li>- Entering Passcode</li>
+                    <li>- pressing quick actions button</li>
+
+                    <h3>Anywhere Haptics:</h3>
+                    <li>- killing app</li>
+                    <li>- app switcher is used</li>
+                    <li>- calling siri</li>
+                    <li>- taking screenshot</li>
+                    <li>- begin/end reachability</li>
+                    <li>- using text selection</li>
+                    <li>- entering power down view</li>
+                    <li>- respringing</li>
+                    <li>- typing</li>
+                    <li>- entering homescreen</li>
+                    <li>- alert appears</li>
+                    <li>- alert disappears</li>
+
+                    <h3>Hardware Button Haptics:</h3>
+                    <li>- volume changed</li>
+                    <li>- pressing only sleep button</li>
+                    <li>- unmuting</li>
+
+                    <h3>- Control Center Haptics:</h3>
+                    <li>- toggling connectivity toggle</li>
+                    <li>- opening control center</li>
+                    <li>- toggling cc module (experimental)</li>
+
+                    <h3>Status Changes: </h3>
+                    <li>- unlocked/NC</li>
+                    <li>- locked</li>
+                    <li>- authenticated with touch/face id</li>
+                    <li>- call connects/disconnects</li>
+
+                    <h3>- Other Hardware Actions Haptics:</h3>
+                    <li>- display wakes</li>
+                    <li>- charger plugged in/out</li>
+                    <li>- connecting bluetooth device in settings</li>
+
+                    <h3>System Elements Haptics:</h3>
+                    <li>- tapping uibutton</li>
+                    <li>- tapping uibuttonbarbutton</li>
+                    <li>- tapping uitabbarbutton</li>
+                    <li>- tapping uiimageview</li>
+                    <li>- tappig uiview</li>
+                    <li>- tapping uiwindow</li>
+
+                    <h3>Applications Haptics:</h3>
+                    <li><span>currently supported apps:</span> apollo, calculator, facebook, instagram, music, phone, safari, spotify, tiktok, twitter</li>
+
+                    <h4>Apollo Haptics:</h4>
+                    <li>- tapping the jump bar</li>
+                    <li>- tapping the floating button</li>
+                    <li>- tapping most elements</li>
+                    <li>- tapping uibutton elements</li>
+
+                    <h4>Calculator Haptics:</h4>
+                    <li>- tapping a keypad button</li>
+
+                    <h4>Facebook Haptics:</h4>
+                    <li>- using the tabbar</li>
+                    <li>- tapping quick access buttons</li>
+                    <li>- tapping navigation bar buttons</li>
+
+                    <h4>Instagram Haptics:</h4>
+                    <li>- tapping like button</li>
+                    <li>- double tapping to like</li>
+                    <li>- tapping comment button</li>
+                    <li>- tapping save button</li>
+                    <li>- tapping send button</li>
+
+                    <h4>Music Haptics:</h4>
+                    <li>- tapping music control buttons</li>
+                    <li>- tapping volume slider</li>
+                    <li>- tapping more button</li>
+                    <li>- tapping time slider</li>
+                    <li>- tapping song cell</li>
+                    <li>- tapping library cell</li>
+                    <li>- tapping album cell</li>
+                    <li>- tapping airplay button</li>
+                    <li>- tapping lyrics, queue, play, skip buttons</li>
+
+                    <h4>Phone Haptics:</h4>
+                    <li>- tapping dialer number pad button</li>
+                    <li>- tapping contacts cell</li>
+                    <li>- tapping dialer delete button</li>
+                    <li>- tapping dialer call button</li>
+
+                    <h4>Safari Haptics:</h4>
+                    <li>- tapping the url bar</li>
+
+                    <h4>Spotify Haptics:</h4>
+                    <li>- resuming/pausing song</li>
+                    <li>- mini-player resuming/pausing</li>
+                    <li>- going to previous song</li>
+                    <li>- skipping song</li>
+                    <li>- tapping repeat button</li>
+                    <li>- tapping shuffle button</li>
+                    <li>- tapping queue button</li>
+                    <li>- using time slider</li>
+                    <li>- tapping like button</li>
+                    <li>- tapping devices button</li>
+                    <li>- tapping song label</li>
+                    <li>- tapping playlist buttons</li>
+
+                    <h4>TikTok Haptics:</h4>
+                    <li>- tapping like, comment, or share</li>
+
+                    <h4>Twitter Haptics:</h4>
+                    <li>- using tabbar</li>
+                    <li>- tapping on a tweet</li>
+                    <li>- tapping a dm chat</li>
+                    <li>- tapping on a notification</li>
+                    <li>- using the floating tweet button</li>
+                    
+                    <h3>Exceptions:</h3>
+                    <li>- when low power mode is on</li>
+                    <li>- when dnd is on</li>
+
+                    <h3>Additionals:</h3>
+                    <li>- haptic lock animation</li>
+
+                    <h3>Delay:</h3>
+                    <li>- you can choose to make rose have a delay</li>
+
+                    <h3>Other Options:</h3>
+                    <li>- Respring Button</li>
+                    <li>- Reset Preferences Button</li>
+                    <li>- Show Setup Again Button</li>
+
+                    <h3>Setup:</h3>
+                    <li>rose has a setup to help you getting started, it automatically enables the tweak and detects which device you're using to configure the engine settings for you</li>
+
+                    <h3>Preferences:</h3>
+                    <li>- beautiful design</li>
+
+                    <h3>Rose Has Translations For Other Languages</h3>
+                    <h3>Every Haptics Option Can Have Its Own Strength</h3>
+
+                </ul>
+
+                <h1 class="sectionHeader">Compatibility:</h1>
+                <ul>
+
+                    <li><span>OS:</span> iOS 12 - latest iOS 13</li>
+                    <li><span>devices:</span> all devices are supported except iPods and iPads</li>
+
+                </ul>
+
+                <h1 class="sectionHeader">Additional Information:</h1>
+                <ul>
+
+                    <li><span>developer:</span> Litten</li>
+                    <li><span>current version:</span> 5.4.1</li>
+                    <li><span>last time updated:</span> 04.28.2020</li>
+                    <li><span>released:</span> 09.28.2019</li>
+                    <li><span>price:</span> free</li>
+                    <li><span>identifier:</span> sh.litten.rose</li>
+                    <li><span>dependencies:</span> mobilesubstrate, preferenceloader, ws.hbang.common(>= 1.14), firmware(>= 12)</li>
+                    <li><span>conflicts:</span> none</li>
+
+                </ul>
+
+            </div>
+
+            <div class="changelog" id="changelog">
+
+                <h1>Changelog</h1>
+
+                <li class="versionNumber">5.4.1:</li>
+                <ul>
+
+                    <li>- Changed One Link</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.4:</li>
+                <ul>
+
+                    <li>- Added Spotify Playlist Buttons Feedback</li>
+                    <li>- Respring Buttons Now Resprings Back Into Rose's Settings</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.3.1:</li>
+                <ul>
+
+                    <li>- Updated Links</li>
+                    <li>- Fixed Respring In Settings</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.3:</li>
+                <ul>
+
+                    <li>- Performance Improvements, Rose Now Uses Its Own Library For Haptics</li>
+                    <li>- Added Arabic Translation</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.2.3:</li>
+                <ul>
+
+                    <li>- Added Japanese Translation</li>
+                    <li>- Added Korean Translation</li>
+                    <li>- Added Vietnamese Translation</li>
+                    <li>- Temporarily Removed Sileo Support</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.2.2:</li>
+                <ul>
+
+                    <li>- Added Spanish Translation</li>
+                    <li>- Improved German Translation</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.2.1:</li>
+                <ul>
+
+                    <li>- Added Hungarian Translation</li>
+                    <li>- More Detailed Contributors Credits</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.2:</li>
+                <ul>
+
+                    <li>- Huge performance Improvements</li>
+                    <li>- Added Sileo Get Button Support</li>
+                    <li>- Added Some System Wide Haptics Back</li>
+                    <li>- Added Ability To Translate Rose</li>
+                    <li>- Added Chinese Translation</li>
+                    <li>- Added German Translation</li>
+                    <li>- Added Other Tweaks Cells</li>
+                    <li>- Added Translations Help Cell</li>
+                    <li>- Added Contributors Sub Menu</li>
+                    <li>- Fixed iOS 12 Preferences Crash</li>
+                    <li>- Removed Warnings</li>
+                    <li>- Removed Touches Feature</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.1:</li>
+                <ul>
+
+                    <li>- Preferences Design Changes</li>
+                    <li>- Changed The Artworks</li>
+                    <li>- Little Setup Screen Design Change</li>
+                    <li>- Added Connect Bluetooth Device In Settings Haptics</li>
+                    <li>- Fixed Call Connect Haptics</li>
+                    <li>- Respring Now Resprings Back Into Rose’s Preferences</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.0.2:</li>
+                <ul>
+
+                    <li>- Fixed An Issue When Toggling DND</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.0.1:</li>
+                <ul>
+
+                    <li>- Fixed App Crashes</li>
+                    <li>- Made The Haptics Trigger A Little More Reliable</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">5.0:</li>
+                <ul>
+
+                    <li>- Added Setup</li>
+                    <li>- Added Respring Button</li>
+                    <li>- Added Reset Button</li>
+                    <li>- Added Apollo Support</li>
+                    <li>- Added Folder Open Haptics</li>
+                    <li>- Added Folder Close Feedback</li>
+                    <li>- Added DND Mode Exception</li>
+                    <li>- Added Alert Appear Haptics</li>
+                    <li>- Added Alert Disappear Haptics</li>
+                    <li>- Added Instagram Double Tap To Like Haptics</li>
+                    <li>- Add Certain System Wide Haptics Back</li>
+                    <li>- Fix The Haptic Lock Animation Playing When LMP + Switch Is Enabled</li>
+                    <li>- Other Bug Fixes</li>
+                    <li>- Removed A Typo In The DRM Alert</li>
+                    <li>- Removed Feature Warning</li>
+                    <li>- Removed System Wide Hooks</li>
+                    <li>- Removed Rose Activator Action</li>
+                    <li>- Performance Improvements</li>
+                    <li>- Improved Siri Haptics</li>
+                    <li>- Improved MPButton And MPRoutebutton Haptics For Music</li>
+                    <li>- Rewrote The Custom Haptics Prepare Method</li>
+                    <li>- Code Look Improvements</li>
+                    <li>- Improvements In The Code</li>
+                    <li>- Make Low Power Mode Detection More Reliable</li>
+                    <li>- Design Changes In The Preferences</li>
+                    <li>- Redesigned Sub Menus</li>
+                    <li>- Sorted The Supported Apps List Alphabetically</li>
+                    <li>- The Delay Slider Does Now Support Milliseconds</li>
+                    <li>- Moved Killing App And App Switcher Switch Into Anywhere</li>
+                    <li>- Renamed Extras Cell To Additionals</li>
+                    <li>- Moved Custom Unlock Strength Cell Up</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.5:</li>
+                <ul>
+
+                    <li>- Introducing A New Feature: Haptic Animations</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.4:</li>
+                <ul>
+
+                    <li>- Added Lockscreen Quick Actions Button Support For Older Devices</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.3:</li>
+                <ul>
+
+                    <li>- Added Legacy Device Support (iPhone SE, 6..)</li>
+                    <li>- Moved Taptic Engine Settings To The Top</li>
+                    <li>- Removed Some Unnecessary Code</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.2.3:</li>
+                <ul>
+
+                    <li>- Fixed Authentication Feedback On iOS 13</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.2.2:</li>
+                <ul>
+
+                    <li>- Fixed The DRM Alert</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.2.1:</li>
+                <ul>
+
+                    <li>- Fixed Double Haptics For App Kills On iOS 12</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.2:</li>
+                <ul>
+
+                    <li>- Added Killing App iOS 13 Support</li>
+                    <li>- Added Haptics When Entering HomeScreen</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.1.2:</li>
+                <ul>
+
+                    <li>- Removed Large Titles, Thanks To WDKFernando</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.1.1:</li>
+                <ul>
+
+                    <li>- Fixed The Problem Where Users Couldn't Toggle Things And The Tweak Doesn't Work</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.1:</li>
+                <ul>
+
+                    <li>- Added Music Support</li>
+                    <li>- Added Calculator Support</li>
+                    <li>- Added Sileo Support</li>
+                    <li>- Added Spotify Mini-Player Play Button Support</li>
+                    <li>- Changed Preferences Banner</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">4.0:</li>
+                <ul>
+
+                    <li>- Added The Ability To Change The Feedback Strength For Every Option Individually</li>
+                    <li>- Fixed ReSpring Loop When Re-/Jailbreaking</li>
+                    <li>- Added Some Comments To The Source Code</li>
+                    <li>- Some Code Clean-Up</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.6:</li>
+                <ul>
+
+                    <li>- Added Option To Disable Rose When Low Power Mode Is On</li>
+                    <li>- Added Facebook Support</li>
+                    <li>- Moved Applications Cell below iOS System Wide Hooks</li>
+                    <li>- File Clean-Up Behind The Scenes</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.5.3:</li>
+                <ul>
+
+                    <li>- Removed libpackageinfo Dependency</li>
+                    <li>- Merged Others Menu Into Anywhere</li>
+                    <li>- Preparations for 3.6</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.5.2:</li>
+                <ul>
+
+                    <li>- Fixed Default Delay Option</li>
+                    <li>- Improved Compatbility Warning For New Users</li>
+                    <li>- Added Warning For Devices On iOS 12 to prevent using Soft Or Rigid Mode</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.5.1:</li>
+                <ul>
+
+                    <li>- Added Nepeta DRM</li>
+                    <li>- Added Thanks For Installing Alert</li>
+                    <li>- Added Tweak Compatibilty Check/Alert</li>
+
+                </ul>
+
+                <br>
+                
+                <li class="versionNumber">3.5:</li>
+                <ul>
+
+                    <li>- Added iOS System Wide Hook Options</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.4:</li>
+                <ul>
+
+                    <li>- Added Delay Option</li>
+                    <li>- Added Phone App Support</li>
+                    <li>- Added Safari Support</li>
+                    <li>- Potential Taptic Engine Performance Upgrade</li>
+                    <li>- Made The Bottom Text Prettier</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.3:</li>
+                <ul>
+
+                    <li>- Added Twitter Feedback Options</li>
+                    <li>- Added Send Button Feedback For Instagram</li>
+                    <li>- Renamed TikTok Cell</li>
+                    <li>- Removed Some Not Working Instagram Cells</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.2:</li>
+                <ul>
+
+                    <li>- Added Spotify Feedback Options</li>
+                    <li>- Added Instagram Feedback Options</li>
+                    <li>- Added TikTok Feedback Option</li>
+                    <li>- Renamed Call Cell</li>
+                    <li>- Renamed Typing Cell</li>
+                    <li>- Added Emojis To Link Cells</li>
+                    <li>- Changed The Text At The Bottom Of The Preferences</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.1:</li>
+                <ul>
+
+                    <li>- Added CC Module Feedback (Experimental)</li>
+                    <li>- Added Open Control Center Feedback</li>
+                    <li>- Added Feature Request Button</li>
+                    <li>- Removed Open/Close App.. Feedback</li>
+                    <li>- Renamed Toggling CC Module to Toggling Connectivity Module</li>
+                    <li>- Changed Preferences Banner</li>
+                    <li>- Rearranged Some Cells</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.0.2:</li>
+                <ul>
+
+                    <li>- Added donate button</li>
+                    <li>- Rearranged some cells</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.0.1:</li>
+                <ul>
+
+                    <li>- fixed app crashes when the app forced the light keyboard</li>
+                    <li>- added bug report button</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.0:</li>
+                <ul>
+
+                    <li>- Taptic Engine Support</li>
+                    <li>- Text selection buttons Feedback</li>
+                    <li>- Open Spotlight Search Feedback</li>
+                    <li>- Call/FaceTime Status Changed</li>
+                    <li>- Authenticated with Touch/FaceID</li>
+                    <li>- Sleep Button Feedback</li>
+                    <li>- Custom Activator Gesture (external package)</li>
+                    <li>- Screen Wake Feedback</li>
+                    <li>- Home Button Feedback</li>
+                    <li>- Advanced Shutdown warning (iOS 12)</li>
+                    <li>- Icon Tap Feedback</li>
+                    <li>- Feedback whenever you touch the screen</li>
+                    <li>- Feature Warning</li>
+                    <li>- Sub-Menus in settings</li>
+                    <li>- iOS 13 Support</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.0-beta-2:</li>
+                <ul>
+
+                    <li>- Improved Activator Gesture Feedback</li>
+                    <li>- Screen Wake Feedback</li>
+                    <li>- Home Button Feedback</li>
+                    <li>- Advanced Shutdown Warning</li>
+                    <li>- Icon Tap Feedback</li>
+                    <li>- Feedback Whenever You Touch The Screen</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">3.0-beta-1:</li>
+                <ul>
+
+                    <li>- Taptic Engine Support</li>
+                    <li>- Using Text selection Feedback</li>
+                    <li>- Open Spotlight Search Feedback</li>
+                    <li>- Call/FaceTime Status Changed</li>
+                    <li>- Authenticated with Touch/FaceID</li>
+                    <li>- Sleep Button Feedback</li>
+                    <li>- Custom Activator Gesture</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">2.2.1:</li>
+                <ul>
+
+                    <li>- Fixed Keyboard Feedback For Apps</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">2.2:</li>
+                <ul>
+
+                    <li>- Feedback When Using Keyboard - Typing</li>
+                    <li>- Feedback When Entering Passcode/View</li>
+                    <li>- Feedback When Taking A Screenshot</li>
+                    <li>- Feedback When Unmuting</li>
+                    <li>- Feedback When Begin/End Reachability</li>
+                    <li>- Proper Credits</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">2.1.1:</li>
+                <ul>
+
+                    <li>- New Beautiful Preferences (Thanks To EsquilliDev For Teaching Me)</li>
+                    <li>- Feedback When Toggling CC Module</li>
+                    <li>- Feedback When Opening/Closing Folder</li>
+                    <li>- Feedback When Open/Close App, CC, NC</li>
+                    <li>- Feedback When Swiping To Next Page</li>
+                    <li>- Added Ability To Change Feedback Strength</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">2.0:</li>
+                <ul>
+
+                    <li>- Added Siri Feedback</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">1.9:</li>
+                <ul>
+
+                    <li>- Added App Switcher Feedback</li>
+
+                </ul>
+
+                <br>
+
+
+                <li class="versionNumber">1.8:</li>
+                <ul>
+
+                    <li>- Capitalised Preference Labels</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">1.7:</li>
+                <ul>
+
+                    <li>- Added Feedback When Charger Plugged In/Out</li>
+
+                </ul>
+
+                <br>
+
+                <li class="versionNumber">1.6:</li>
+                <ul>
+
+                    <li>- Fixed Volume Not Changing</li>
+                    <li>- Added 3DTouch Action Feedback</li>
+                    <li>- Added Wake Feedback</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+        var isMoreLinksViewVisible = false;
+        var isMoreInfoViewVisible = false;
+
+        function showMoreLinks() {
+
+            if (!isMoreLinksViewVisible) {
+                document.getElementById('dots').style.opacity = ".8";
+                document.getElementById('moreLinks').style.display = "block";
+                isMoreLinksViewVisible = true;
+
+            } else {
+                document.getElementById('dots').style.opacity = "1";
+                document.getElementById('moreLinks').style.display = "none";
+                isMoreLinksViewVisible = false;
+
+            }
+
+        }
+
+        function showMoreInfo(content) {
+
+            if (!isMoreInfoViewVisible) {
+                document.getElementById('moreInfo').style.display = "block";
+
+                if (content == 0) {
+                    document.getElementById('details').style.display = "block";
+                    document.getElementById('changelog').style.display = "none";
+                }
+                else if (content == 1) {
+                    document.getElementById('details').style.display = "none";
+                    document.getElementById('changelog').style.display = "block";
+
+                } else if (content == 2) {
+                    document.getElementById('details').style.display = "none";
+                    document.getElementById('changelog').style.display = "none";
+
+                }
+
+                isMoreInfoViewVisible = true;
+
+            } else {
+                document.getElementById('moreInfo').style.display = "none";
+                document.getElementById('details').style.display = "none";
+                document.getElementById('changelog').style.display = "none";
+                isMoreInfoViewVisible = false;
+
+            }
+
+        }
+
+    </script>
     
-    <h1 id="PackageTitle">Rose</h1>
-    
-    <h2 id="descriptionTitle">Description:</h2>
-    <p id="description">Getting peeped by a Rose doesn't feel that good, it’s time to change that</p>
-
-    <h2 id="screenshotsTitle">Screenshots:</h2>
-
-    <ul class="ssList">
-
-        <li><a href="assets/ss1.png"><img src="assets/ss1.png"></a></li>
-        <li><a href="assets/ss2.png"><img src="assets/ss2.png"></a></li>
-        <li><a href="assets/ss3.png"><img src="assets/ss3.png"></a></li>
-
-    </ul>
-
-    <p id="changelog"><a href="rseChangelog.html">Changelog</a></p>
-
-    <ul class="followList">
-
-        <li><a href="https://twitter.com/Litteeen">Twitter</a></li>
-        <li><a href="https://reddit.com/user/sh0rtflow">Reddit</a></li>
-        <li><a href="https://github.com/Litteeen">Github</a></li>
-
-    </ul>
-
 </body>
 </html>

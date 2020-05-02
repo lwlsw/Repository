@@ -34,6 +34,14 @@
                         {
                             "accessibilityText": "Screenshot6",
                             "url": "https://repo.litten.love/depictions/rse/assets/ss7.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot7",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss8.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot8",
+                            "url": "https://repo.litten.love/depictions/rse/assets/ss9.png"
                         }
                     ]
                 },
@@ -53,12 +61,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "5.4",
+                    "text": "5.4.1",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "04-27-2020",
+                    "text": "04-28-2020",
                     "title": "Last Time Updated"
                 },
                 {
@@ -101,6 +109,20 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 5.4.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Changed One Link",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
                 {   
                     "class": "DepictionSubheaderView",
                     "title": "Version 5.4",
