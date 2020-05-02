@@ -2,7 +2,7 @@
 
 ## Depictions
 
-if you want to take my depictions, feel free to do so and to help you out a little here are some things you might think of useful:
+if you want to take my depictions, feel free to do so and to help you out a little, here are some things you might think of useful:
 
 - if the text is hard to see go to line 44 and check the comments
 - name and short description are in the first container called about
