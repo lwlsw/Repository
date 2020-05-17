@@ -61,12 +61,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "5.4.1",
+                    "text": "6.0.1",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "04-28-2020",
+                    "text": "05-05-2020",
                     "title": "Last Time Updated"
                 },
                 {
@@ -109,6 +109,34 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 6.0.1",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed Application Support\r\n- Changed CC Modules Cell Name",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 6.0",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Ringer Exception\r\n- Fixed Control Center Modules Feedback\r\n- The Setup Is Now Smarter\r\n- The Setup Does Now Have An Animation\r\n- Added Preferences Haptics Test\r\n- Added Blurry View When Entering Preferences\r\n- Added Sub Menu To Customize Preferences\r\n- Added Quick Tips\r\n- Added A Support Button If The Setup Fails",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
                 {   
                     "class": "DepictionSubheaderView",
                     "title": "Version 5.4.1",

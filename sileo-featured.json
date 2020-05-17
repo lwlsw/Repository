@@ -26,18 +26,6 @@
          "title":"Aestea",
          "package":"sh.litten.aestea",
          "hideShadow":true
-      },
-      {  
-         "url":"https://repo.litten.love/depictions/nve/assets/Banner.png",
-         "title":"Nevve",
-         "package":"sh.litten.nevve",
-         "hideShadow":true
-      },
-      {  
-         "url":"https://repo.litten.love/depictions/mdy/assets/Banner.png",
-         "title":"Melody",
-         "package":"sh.litten.melody",
-         "hideShadow":true
       }
    ]
 }

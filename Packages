@@ -1,18 +1,3 @@
-Package: love.litten.switchboard.bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hiya@litten.love>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/switchboard-BootLogo.deb
-Size: 510640
-MD5sum: b36af90c2b445b3db3c6c9691f6b7eb7
-SHA1: 68b8bfff9ab4f937550d527963d6b3040f7628ad
-SHA256: ad314c10f29478b637ed6e441e24bec62d317d1b0c9e4828e1a701ddbd9729d9
-Section: Bootlogos
-Description: Switchboard custom Bootlogo
-Author: Litten <hiya@litten.love>
-Name: Switchboard-Bootlogo
-
 Package: sh.litten.aestea
 Version: 1.0
 Architecture: iphoneos-arm
@@ -127,74 +112,6 @@ Icon: https://repo.litten.love/depictions/aes/assets/icon.png
 Name: Aestea 🌊
 Sileodepiction: https://repo.litten.love/depictions/aes/aes.json
 
-Package: sh.litten.anchor-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Anchor-BootLogo.deb
-Size: 115968
-MD5sum: ed1ca010b3fa9d2368221af3426e6c5c
-SHA1: bc5bce3d257ce7159fa08cf9eac92abfbc227261
-SHA256: 6af7f9e3ec18d04c62d2f3eecfbee5f0c43e3b50e48ffb00236c9650b43e0465
-Section: Bootlogos
-Description: Anchor custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/anchorbl/index.html
-Name: Anchor-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/anchorbl/anchorbl.json
-
-Package: sh.litten.android-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Android-BootLogo.deb
-Size: 76552
-MD5sum: 037273a69abe6405a99cf50d2af8e100
-SHA1: c3b9182e7f47aa0a43b1f822c2d78770c049e815
-SHA256: a3dd918a0851b8562871f3a2bae69a871814fbcc91b77a88273766823d365377
-Section: Bootlogos
-Description: Android custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/androidbl/index.html
-Name: Android-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/androidbl/androidbl.json
-
-Package: sh.litten.anime-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Anime-BootLogo.deb
-Size: 768988
-MD5sum: 0b5ff4fc12e4800ed6cbd6b1137e6b62
-SHA1: a70edd240770383712f617bad2cfb6a6e6762bbd
-SHA256: e85890241a1274a5b73b1e9d73ee0c13540e19ff1d530621f6601836ba25b61d
-Section: Bootlogos
-Description: Anime custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/animebl/index.html
-Name: Anime-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/animebl/animebl.json
-
-Package: sh.litten.appleios-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/AppleiOS-BootLogo.deb
-Size: 1668232
-MD5sum: 28f99913a12ca989f7a395ffbbd64054
-SHA1: 97dfeb4ac70a596c0d6cb3652fb3ac8291916eff
-SHA256: 5c704071a6d1f4150b430c7bfe4dd78ab032eca392aa0a4f11ab32737062a6ba
-Section: Bootlogos
-Description: AppleiOS custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/appleiosbl/index.html
-Name: AppleiOS-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/appleiosbl/appleiosbl.json
-
 Package: sh.litten.ashley
 Version: 1.2
 Architecture: iphoneos-arm
@@ -308,23 +225,6 @@ Depiction: https://repo.litten.love/depictions/ash/index.html
 Icon: https://repo.litten.love/depictions/ash/assets/icon.png
 Name: Ashley 💞
 Sileodepiction: https://repo.litten.love/depictions/ash/ash.json
-
-Package: sh.litten.assassinscreed-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/AssassinsCreed-BootLogo.deb
-Size: 202336
-MD5sum: e39d08b6e46fc865ab437caf04cd9beb
-SHA1: 7793ade30a0a4ca15a7fdc895122620d80492166
-SHA256: 4c632741938b83c96884a883603d2d4e8b683a2b843b1530d5ea1c9fe60ff07c
-Section: Bootlogos
-Description: AssassinsCreed custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/assassinscreedbl/index.html
-Name: AssassinsCreed-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/assassinscreedbl/assassinscreedbl.json
 
 Package: sh.litten.butterfly
 Version: 1.0
@@ -477,108 +377,6 @@ Depiction: https://repo.litten.love/depictions/bty/index.html
 Icon: https://repo.litten.love/depictions/bty/assets/icon.png
 Name: Butterfly 🦋
 Sileodepiction: https://repo.litten.love/depictions/bty/bty.json
-
-Package: sh.litten.butterfly-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Butterfly-BootLogo.deb
-Size: 724788
-MD5sum: b8426e1a02604828c8a9743f3e2f3c17
-SHA1: 49489317d3a2e2c786c2b452fbe895efe1ddd262
-SHA256: 2e3c7d8c8b6a5a2eedce30a6b036fa97b1eaf06aebbb6f23f161642c2caf15e4
-Section: Bootlogos
-Description: Butterfly custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/butterflybl/index.html
-Name: Butterfly-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/butterflybl/butterflybl.json
-
-Package: sh.litten.checkra1n.bootlogo
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/checkra1n-BootLogo.deb
-Size: 274492
-MD5sum: 1685b4b4b6bb18d3b5a051d4187f7f5a
-SHA1: cd2819705df8271a0eb74ed38c3790a3d822e5ed
-SHA256: 1688734415834edb2d212cc27c643daf9848884e0e7d6b275e32ee1a02541e46
-Section: Bootlogos
-Description: checkra1n custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/checkra1nbl/index.html
-Name: checkra1n-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/checkra1nbl/checkra1nbl.json
-
-Package: sh.litten.chimera-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Chimera-BootLogo.deb
-Size: 265524
-MD5sum: c5878575e9063a0f94bf0e9ca38c09bd
-SHA1: 30ce44670dd2ce40c887648234a57d862c40016c
-SHA256: 9bc94756b0fdc837c75b79e11db55dac2ff2aed6469d24224ded0c3b2142a7f3
-Section: Bootlogos
-Description: Chimera custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/chimerabl/index.html
-Name: Chimera-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/chimerabl/chimerabl.json
-
-Package: sh.litten.frozen.bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Frozen-BootLogo.deb
-Size: 1245352
-MD5sum: cbccfc3de4016a8a90a9eec68444bec2
-SHA1: 3d22f515592b7cff9c71816ceff07c0e2e30c448
-SHA256: f1d49c20bcf3b9b4fd09135b7665a04116d1f299d005bb61fa4d46915afdb65d
-Section: Bootlogos
-Description: Frozen custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/frozenbl/index.html
-Name: Frozen-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/frozenbl/frozenbl.json
-
-Package: sh.litten.ios6-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/iOS6-BootLogo.deb
-Size: 247772
-MD5sum: f1497dd8cbc55682bdfeccdfb93091ca
-SHA1: 085fa7f72a043f637c82a69cd0724bfa42522b79
-SHA256: db606d5d53c8ed45615c2e2d87c955a293cfb48b49669fc022227a9e48daf9fb
-Section: Bootlogos
-Description: iOS6 custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/ios6bl/index.html
-Name: iOS6-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/ios6bl/ios6bl.json
-
-Package: sh.litten.loote-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Loote-BootLogo.deb
-Size: 320108
-MD5sum: 24f50670e40f6de338e53d8b2d11bfff
-SHA1: 7784385c884545d9502f4dc227aebdf34f7daeb8
-SHA256: 7e28f93987e2b923bdda5e6e8d9ffe9136b67b20afa6813ff7d87725d8c70d89
-Section: Bootlogos
-Description: Loote custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/lootebl/index.html
-Name: Loote-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/lootebl/lootebl.json
 
 Package: sh.litten.lune
 Version: 1.0
@@ -1141,189 +939,107 @@ Sileodepiction: https://repo.litten.love/depictions/nve/nve.json
 Package: sh.litten.nevve-ios-default-extension
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
+Maintainer: Litten <hiya@litten.love>
 Depends: mobilesubstrate, sh.litten.nevve
 Filename: ./debs/Nevve-iOS-Default-Extension.deb
-Size: 4504216
-MD5sum: 71beb1e8860d0ca5f9aca2ac24801f31
-SHA1: 7ad37b8740a4f7e8d633e8b655a3edc5139d699b
-SHA256: 75d2b99c7a229c5355f8e4b9a9d98cd3643d816cf28682c0a6457b96dbe2aa48
-Section: Tweaks (Extensions)
+Size: 4510764
+MD5sum: 9c6688ab385a2198b09700cec759d325
+SHA1: 611a3251162aba56f64f6b392e884e372216a536
+SHA256: f9f57821b558b37bb538943db5fdf8992167c06d1f565e866f997a5668af2685
+Section: Nevve Extensions
 Description: iOS Default Sounds Extension For Nevve
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/nveide/index.html
+Author: Litten <hiya@litten.love>
 Name: Nevve iOS Default Extension
-Sileodepiction: https://repo.litten.sh/depictions/nveide/nveide.json
 
 Package: sh.litten.nevve-ios-modern-extension
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
+Maintainer: Litten <hiya@litten.love>
 Depends: mobilesubstrate, sh.litten.nevve
 Filename: ./debs/Nevve-iOS-Modern-Extension.deb
-Size: 31352
-MD5sum: 661fdd094f2a751d9ccbc42ce0d9e5f9
-SHA1: 2005697d6df740a038cb00792d83601b6a1c61d0
-SHA256: 8175ff4a4470ae7ea47f91e51b95411bbea64c91cdf1d6a2d767e942b081428d
-Section: Tweaks (Extensions)
+Size: 31512
+MD5sum: aca00f182cbe98808541ced71f9b834e
+SHA1: 5495d17fb88d41767ac1630d2ffeb846d087e13d
+SHA256: e0d0a43bc189973bfdd71136e6c55c0e51346b33c77b2a1d40b16eff01d8ef3e
+Section: Nevve Extensions
 Description: iOS Modern Sounds Extension For Nevve
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/nveime/index.html
+Author: Litten <hiya@litten.love>
 Name: Nevve iOS Modern Extension
-Sileodepiction: https://repo.litten.sh/depictions/nveime/nveime.json
 
 Package: sh.litten.nevve-ios-nano-extension
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
+Maintainer: Litten <hiya@litten.love>
 Depends: mobilesubstrate, sh.litten.nevve
 Filename: ./debs/Nevve-iOS-Nano-Extension.deb
-Size: 5035164
-MD5sum: a1b9906cf29da0f126d53e934b731e60
-SHA1: 936102c34ebfdc0eceeca7ccaaabae08767cfb61
-SHA256: 3d7fac42ab98314eff7269461ab7fb19d1c8014cabfa798537dd2e9e547e9090
-Section: Tweaks (Extensions)
+Size: 5035760
+MD5sum: 37268d7fdbe6be37b07468101f135bd9
+SHA1: 504d67444307addc58854f5c97b65c376c5e95c5
+SHA256: aa686681f5216ebd16109ec5e299bc76e2ddbdc66560bb760df1cddbf89dcc26
+Section: Nevve Extensions
 Description: iOS Nano Sounds Extension For Nevve
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/nveinae/index.html
+Author: Litten <hiya@litten.love>
 Name: Nevve iOS Nano Extension
-Sileodepiction: https://repo.litten.sh/depictions/nveinae/nveinae.json
 
 Package: sh.litten.nevve-ios-new-extension
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
+Maintainer: Litten <hiya@litten.love>
 Depends: mobilesubstrate, sh.litten.nevve
 Filename: ./debs/Nevve-iOS-New-Extension.deb
-Size: 3844648
-MD5sum: 116a93615e26bd0da35f5a2f2f086589
-SHA1: eca742020e22f9f1ec21f6d881247651244a4425
-SHA256: 7c72aac7323e324754c05189496c72fbbeb378a7c25c879f7c0aa06f5f2835b3
-Section: Tweaks (Extensions)
+Size: 3847988
+MD5sum: 349cb2921df2d60257cb90c6a97ab4c4
+SHA1: 69e414e19ea868caf167abf991bfff486427a934
+SHA256: 8ca185bd686be39419206070a0eb9bd6c8658dda22b223342ef4209473b7b3b1
+Section: Nevve Extensions
 Description: iOS New Sounds Extension For Nevve
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/nveine/index.html
+Author: Litten <hiya@litten.love>
 Name: Nevve iOS New Extension
-Sileodepiction: https://repo.litten.sh/depictions/nveine/nveine.json
 
 Package: sh.litten.nevve-littens-memories-extension
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
+Maintainer: Litten <hiya@litten.love>
 Depends: mobilesubstrate, sh.litten.nevve
 Filename: ./debs/Nevve-Littens-Memories-Extension.deb
-Size: 1391220
-MD5sum: fad9b776f2eb67212f831dd2a3ed02e6
-SHA1: 1a27fd7d3f93405e09c03f70415dafb8ab78ea9b
-SHA256: a138508751022ac040eb06f4aa997c89eef6e13e3e17b48b0691c09e5f4d1df3
-Section: Tweaks (Extensions)
+Size: 1391164
+MD5sum: fa4a7b41f6fde78ef810e3b885370f12
+SHA1: 424509dc1100d67f341415f451c83446b492dd46
+SHA256: 3f917a1b09a2e15caeaa023a289ccc652622f2579ab132e081f70a178f258c08
+Section: Nevve Extensions
 Description: Littens Memories Sounds Extension For Nevve
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/nvelme/index.html
+Author: Litten <hiya@litten.love>
 Name: Nevve Littens Memories Extension
-Sileodepiction: https://repo.litten.sh/depictions/nvelme/nvelme.json
 
 Package: sh.litten.nevve-realmastermrx-extension
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
+Maintainer: Litten <hiya@litten.love>
 Depends: mobilesubstrate, sh.litten.nevve
 Filename: ./debs/Nevve-RealMasterMrx-Extension.deb
-Size: 14239168
-MD5sum: 08703ae3cc866273010a4f2ef47628a4
-SHA1: 3cbb93a1432761b605f1bb1fc229d37608871fc3
-SHA256: 4f6a45b2f541b1b30109f1b4b31eafa440cd7725532fb8be0e6e60cb5d2262bd
-Section: Tweaks (Extensions)
+Size: 14241656
+MD5sum: a4e202f6a110f3618bf768d29dd786db
+SHA1: eee24d889011028b2277d64b58c973b096724868
+SHA256: 690e9c439d4a331f1daa7214677fe920efbdcdbb701e07e99a3a9bd3f511d7f2
+Section: Nevve Extensions
 Description: RealMasterMrx Sounds Extension For Nevve
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/nvermme/index.html
+Author: Litten <hiya@litten.love>
 Name: Nevve RealMasterMrx Extension
-Sileodepiction: https://repo.litten.sh/depictions/nvermme/nvermme.json
 
 Package: sh.litten.nevve-roxanne-extension
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
+Maintainer: Litten <hiya@litten.love>
 Depends: mobilesubstrate, sh.litten.nevve
 Filename: ./debs/Nevve-Roxanne-Extension.deb
-Size: 970352
-MD5sum: d43aa7f1144c229aaf5cae9d1d83d525
-SHA1: 95be858498e36b7452da97ca2301f92a72bf98fd
-SHA256: 23e4b71fbae08e0cfa4b5411bb40efa18942a37c9cf673bc4a08d9d37c028b14
-Section: Tweaks (Extensions)
+Size: 971820
+MD5sum: 580e6307eb7b9b4afc88ce7b7bbf812e
+SHA1: 6ffbf750c6bb2fe7efdcb3b971c1f9a062fc7921
+SHA256: 6bfd3868471090661eaaf7102c702e1a8f78051c9826acb662d6cac82a66680f
+Section: Nevve Extensions
 Description: Roxanne Sounds Extension For Nevve
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/nvere/index.html
+Author: Litten <hiya@litten.love>
 Name: Nevve Roxanne Extension
-Sileodepiction: https://repo.litten.sh/depictions/nvere/nvere.json
-
-Package: sh.litten.overwatch-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Overwatch-BootLogo.deb
-Size: 156184
-MD5sum: 62b3f24e64d242ab6031c3c8365a538a
-SHA1: d9c270c9eb352b2ff8e6e5b7ac8921daae035b7c
-SHA256: a1b3cde5a771f8df806400ba5bfa79c81ecc1eb3df10e09fa092a0f17ec740a1
-Section: Bootlogos
-Description: Overwatch custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/overwatchbl/index.html
-Name: Overwatch-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/overwatchbl/overwatchbl.json
-
-Package: sh.litten.pokeball-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Pokeball-BootLogo.deb
-Size: 213884
-MD5sum: e123a07c378af3716588552cc7edc38b
-SHA1: 16f9c1615fcfe5de79c56754c052d54f94930aeb
-SHA256: 420355fdf2a929d39291b1c7f28a9048e9a91b2c7d5e35df3d8ff7cf01a18fbb
-Section: Bootlogos
-Description: Pokeball custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/pokeballbl/index.html
-Name: Pokeball-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/pokeballbl/pokeballbl.json
-
-Package: sh.litten.rainbow-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/RainbowApple-BootLogo.deb
-Size: 345440
-MD5sum: a83df8ca3fa1f496f7e46550677ae1e2
-SHA1: 8d213a672a65852749d3d8181b07ecaf4060f29b
-SHA256: 6da51f786faa6412a034ed1ee3e576011058b601e5694aa1a5c73eeaf1a7d7c7
-Section: Bootlogos
-Description: Rainbow custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/rainbowbl/index.html
-Name: Rainbow-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/rainbowbl/rainbowbl.json
-
-Package: sh.litten.retroapplelogo-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/RetroAppleLogo-BootLogo.deb
-Size: 41912
-MD5sum: 57fd5b5d306dc43fd9cf6276559db77c
-SHA1: 0df7d0bb81b78a72dd6aec3920019ceb54b370bf
-SHA256: 0412ac5f121545a78533d92210ad6d329a47e1c34417e2dbf7bfcf5d9cda44c2
-Section: Bootlogos
-Description: Retro Apple Logo custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/retrobl/index.html
-Name: RetroAppleLogo-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/retrobl/retrobl.json
 
 Package: sh.litten.rose
 Version: 4.1.1
@@ -1724,73 +1440,43 @@ Icon: https://repo.litten.love/depictions/rse/assets/icon.png
 Name: Rose 🌹
 Sileodepiction: https://repo.litten.love/depictions/rse/rse.json
 
-Package: sh.litten.samsung.bootlogo
-Version: 1.0
+Package: sh.litten.rose
+Version: 6.0
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/samsung-BootLogo.deb
-Size: 125464
-MD5sum: ff44a19d173008eef8629e98ae9eff3f
-SHA1: 4559e403d65e8bf34b067a0e46f3599155612314
-SHA256: 92c37ec56d9dc8615b1fce8e88ef8abc9c361c3484f962ae428ab2098b4f6071
-Section: Bootlogos
-Description: samsung custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/samsungbl/index.html
-Name: samsung-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/samsungbl/samsungbl.json
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 4996
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/sh.litten.rose_6.0_iphoneos-arm.deb
+Size: 648532
+MD5sum: 41bc1d1903b3d406520423c7725464e2
+SHA1: 97b793190bdce0a4a26e59e7be651d722c50e644
+SHA256: e0ee4ad758e9eec562617703831a9dd47e5c9648812d14ebd653dd5a2c6d12e6
+Section: Tweaks
+Description: Being Peeped By A Rose Doesn't Feel That Good, It's Time To Change That
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/rse/index.html
+Icon: https://repo.litten.love/depictions/rse/assets/icon.png
+Name: Rose 🌹
+Sileodepiction: https://repo.litten.love/depictions/rse/rse.json
 
-Package: sh.litten.sh.redsn0w-bootlogo
-Version: 1.0
+Package: sh.litten.rose
+Version: 6.0.1
 Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Redsn0w-BootLogo.deb
-Size: 199600
-MD5sum: cb69385fc318812e0ae81e3025286e8e
-SHA1: 7077d12efc09e261a7de79f636e2c4f4d141155b
-SHA256: d64cc73d97bd6383971dc6cdbf027f537dcf5ad7ffe3dc39f08ebe85de5a7a28
-Section: Bootlogos
-Description: Redsn0w custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/redsn0wbl/index.html
-Name: Redsn0w-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/redsn0wbl/redsn0wbl.json
-
-Package: sh.litten.squid-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Squid-BootLogo.deb
-Size: 265336
-MD5sum: 5ae57be318e3fcfd01e795be49bd6b46
-SHA1: 2d8ba64cafd78b3dfb0a0b7c48e1f379a0c53570
-SHA256: 05a871a50223a222b9ba99bba322350dc7768d75550f57f8b8b6838e33e25a77
-Section: Bootlogos
-Description: Squid custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/squidbl/index.html
-Name: Squid-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/squidbl/squidbl.json
-
-Package: sh.litten.swift-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/Swift-BootLogo.deb
-Size: 276588
-MD5sum: 562d151582cbf6b739bb39fd23d30ffe
-SHA1: 11aa5bb048b471f135c433d984615f42a0b4a1cc
-SHA256: b4a7a3dee4b44ecede47034f320e7c9e6c02cfd6f16e8f2c0cd0e4e6ad3520f4
-Section: Bootlogos
-Description: Swift custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/swiftbl/index.html
-Name: Swift-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/swiftbl/swiftbl.json
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 4180
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/sh.litten.rose_6.0.1_iphoneos-arm.deb
+Size: 643870
+MD5sum: 6adb189a59d960d100fef08790e23060
+SHA1: 4a2945fea98f8515b793962ff576128a0033c566
+SHA256: e0ea7f047a5ff993cc9e149a5f4ce9c51ffb38b30e7dd33453e3c2768cdf0587
+Section: Tweaks
+Description: Being Peeped By A Rose Doesn't Feel That Good, It's Time To Change That
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/rse/index.html
+Icon: https://repo.litten.love/depictions/rse/assets/icon.png
+Name: Rose 🌹
+Sileodepiction: https://repo.litten.love/depictions/rse/rse.json
 
 Package: sh.litten.tick
 Version: 1.1
@@ -1867,38 +1553,4 @@ Depiction: https://repo.litten.love/depictions/tck/index.html
 Icon: https://repo.litten.love/depictions/tck/assets/icon.png
 Name: Tick
 Sileodepiction: https://repo.litten.love/depictions/tck/tck.json
-
-Package: sh.litten.unc0ver-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/unc0ver-BootLogo.deb
-Size: 334016
-MD5sum: 58f0eceabbfdf2bbe33b80330d4d5cef
-SHA1: 896b1ba15127eebc3bcf567bf4837bc0787487e8
-SHA256: 4d71180e879da249e43035147dc480317f0d75761f45ac04f71f78c4a140ec65
-Section: Bootlogos
-Description: unc0ver custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/unc0verbl/index.html
-Name: unc0ver-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/unc0verbl/unc0verbl.json
-
-Package: sh.litten.watchdogs-bootlogo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Litten <hello@litten.sh>
-Depends: mobilesubstrate, firmware(>=11)
-Filename: ./debs/WatchDogs-BootLogo.deb
-Size: 543360
-MD5sum: 535f08a3988bddc7a0a88782292fcd28
-SHA1: 42720f47077a0675b8c9ebff06d7f330af543511
-SHA256: a4648d541ad6c6fecda22c432cd224ddfb7708deb1957edd8055438104c79bc1
-Section: Bootlogos
-Description: WatchDogs custom Bootlogo
-Author: Litten <hello@litten.sh>
-Depiction: https://repo.litten.sh/depictions/watchdogsbl/index.html
-Name: WatchDogs-Bootlogo
-Sileodepiction: https://repo.litten.sh/depictions/watchdogsbl/watchdogsbl.json
 

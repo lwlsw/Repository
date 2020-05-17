@@ -2,87 +2,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Litten | Repository</title>
 
     <style>
-    
+
         html, body {
 
             margin: 0;
             padding: 0;
+            user-select: none;
+            -webkit-user-select: none;
+            cursor: default;
+            -webkit-font-smoothing: antialiased;
+            background-color: #fff;
 
         }
 
-        body  {
+        .home .container {
 
-            background-image: url("assets/background.png");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100%;
-
-        }
-
-        .home {
-            
-            height: 200px;
-            background-color: #000000;
-            opacity: 0.4;
+            text-align: center;
+            height: 90%; 
+            width:100%;
+            display:flex;
+            align-items: center;
+            justify-content: center;
 
         }
 
-        .home .container #header {
+        .home .container h1 {
 
-            font-size: 64px;
+            color: #000;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            color: #ffffff;
-            transform: translateY(50px);
-            text-align: left;
-            margin-left: 50px;
+            font-weight: 300;
+            /* transform: translateY(350px); */
 
         }
 
-        .home .container #linkToAdd {
+        .home .container h1 #w1 {
 
-            font-size: 22px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: left;
-            margin-left: 50px;
-            opacity: 0.8;
-            transform: translateY(5px);
+            animation: fade2 2s infinite;
+            animation-fill-mode: both;
+            animation-delay: .7s;
 
         }
 
-        .home .container #linkToAdd a {
+        .home .container h1 #w2 {
 
-            color: #ffffff;
-            text-decoration: none;
-
-        }
-
-        .home .container #linkToAdd a:hover {
-
-            text-decoration: underline;
+            animation: fade2 2s infinite;
+            animation-fill-mode: both;
+            animation-delay: 1.2s;
 
         }
 
-        @media only screen and (max-width: 768px) {
+        .home .container h1 #w3 {
+
+            animation: fade2 2s infinite;
+            animation-fill-mode: both;
+            animation-delay: 1.7s;
+
+        }
+
+        .home .container h1 #d1 {
+
+            animation: fade 2s infinite;
+            animation-fill-mode: both;
+            animation-delay: 0ms;
+
+        }
+
+        .home .container h1 #d2 {
+
+            animation: fade 2s infinite;
+            animation-fill-mode: both;
+            animation-delay: 1s;
+
+        }
+
+        @keyframes fade {
             
-            .home .container #header {
+            0% {
 
-                text-align: center;
-                margin-left: 0px;
-                font-size: 50px;
+                opacity: 0;
 
             }
 
-            .home .container #linkToAdd {
+            50% {
 
-                text-align: center;
-                margin-left: 0px;
-                font-size: 22px;
-                transform: translateY(20px);
+                opacity: 1;
+
+            }
+
+            100% {
+
+                opacity: 0;
+
+            }
+
+        }
+
+        @keyframes fade2 {
+            
+            0% {
+
+                opacity: .7;
+
+            }
+
+            50% {
+
+                opacity: 1;
+
+            }
+
+            100% {
+
+                opacity: .7;
+
+            }
+
+        }
+
+        @media (prefers-color-scheme: light) {
+
+            html, body {
+
+                background-color: #fff;
+
+            }
+
+            .home .container h1 {
+
+                color: #000;
+
+            }
+
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            html, body {
+
+                background-color: #000;
+
+            }
+
+            .home .container h1 {
+
+                color: #fff;
 
             }
 
@@ -91,16 +157,25 @@
     </style>
 
 </head>
-<body>
-
+<body onclick="addRepo()">
+    
     <div class="home">
         <div class="container">
 
-            <h1 id="header">Repository</h1>
-            <p id="linkToAdd"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.litten.love/">Click Here To Add It</a></p>
-
+            <h1><span id="w1">repo</span><span id="d1">.</span><span id="w2">litten</span><span id="d2">.</span><span id="w3">love</span></h1>
+            
         </div>
     </div>
+
+    <script>
+
+        function addRepo() {
+
+            window.location.href = "cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.litten.love/";
+
+        }
+
+    </script>
     
 </body>
 </html>

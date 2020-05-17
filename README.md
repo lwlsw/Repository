@@ -2,7 +2,7 @@
 
 ## Depictions
 
-if you want to take my depictions, feel free to do so and to help you out a little, here are some things you might think of useful:
+if you want to take my depictions, feel free to do so and to help you out a little here are some things you might think of useful:
 
 - if the text is hard to see go to line 44 and check the comments
 - name and short description are in the first container called about
@@ -11,6 +11,5 @@ if you want to take my depictions, feel free to do so and to help you out a litt
 - the moreLinks container includes all links you have in the three dot menu, check them and edit them to have your profiles in
 - the moreInfo container includes more information about your package, for example its features etc.
 - the changelog container obviously lists all changes made to the package
-- the background is basically the icon but in 1920x1080 and has a blur with the amount of 64px, i use photoshop but you can do it with any software
 
 that's it, enjoy c:
