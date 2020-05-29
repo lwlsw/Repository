@@ -1,3 +1,41 @@
+Package: love.litten.dress
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 1240
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/love.litten.dress_1.0_iphoneos-arm.deb
+Size: 643030
+MD5sum: c60c65f12668e35dfc363df44ba5e8e0
+SHA1: a77ae8964f38ca734df7f94e48e8bcafba0b8aa3
+SHA256: 8eed8ac20075e60f6ade93d94e20b82bac5144c26173b9895f92f197047aceff
+Section: Tweaks
+Description: Dress Up Your Lockscreen
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/drs/index.html
+Icon: https://repo.litten.love/depictions/drs/assets/icon.png
+Name: Dress 👗
+Sileodepiction: https://repo.litten.love/depictions/drs/drs.json
+
+Package: love.litten.dress
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 1240
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/love.litten.dress_1.1_iphoneos-arm.deb
+Size: 642228
+MD5sum: e0d3884fb8746847044e3237f2e4e573
+SHA1: 5d7481625f0c26aab9b89a4d9e74c043e9f1bad1
+SHA256: 21c4179efaf7fedf21a0465af2ff85d24880bc231932194bc65a7f524358826d
+Section: Tweaks
+Description: Dress Up Your Lockscreen
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/drs/index.html
+Icon: https://repo.litten.love/depictions/drs/assets/icon.png
+Name: Dress 👗
+Sileodepiction: https://repo.litten.love/depictions/drs/drs.json
+
 Package: sh.litten.aestea
 Version: 1.0
 Architecture: iphoneos-arm
@@ -586,6 +624,26 @@ Size: 598174
 MD5sum: 814062ba454db20c6174c435fe158e84
 SHA1: 6002b994f63fe12bd6fd0ded267644fdf9c9272a
 SHA256: 65299cb2483685ecaaeae2b61cef6699709f73fec19591bad2c676936ceaf12a
+Section: Tweaks
+Description: Twinkle, Twinkle, Little Star
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/lne/index.html
+Icon: https://repo.litten.love/depictions/lne/assets/icon.png
+Name: Lune 🌙
+Sileodepiction: https://repo.litten.love/depictions/lne/lne.json
+
+Package: sh.litten.lune
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 1272
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12)
+Conflicts: com.junesiphone.lockpluspro, com.xcxiao.simplels2
+Filename: ./debs/sh.litten.lune_1.5_iphoneos-arm.deb
+Size: 888452
+MD5sum: af9c0205d618837e571484c47695b30b
+SHA1: fde3ff147fcfcccf2ffcf4cbc311408fc685f9c9
+SHA256: 5df6bb859ddaa56b92bd388aea0b74dbc01620ee827a011aff7b569e11c4ceec
 Section: Tweaks
 Description: Twinkle, Twinkle, Little Star
 Author: Litten <hiya@litten.love>
@@ -1470,6 +1528,25 @@ Size: 643870
 MD5sum: 6adb189a59d960d100fef08790e23060
 SHA1: 4a2945fea98f8515b793962ff576128a0033c566
 SHA256: e0ea7f047a5ff993cc9e149a5f4ce9c51ffb38b30e7dd33453e3c2768cdf0587
+Section: Tweaks
+Description: Being Peeped By A Rose Doesn't Feel That Good, It's Time To Change That
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/rse/index.html
+Icon: https://repo.litten.love/depictions/rse/assets/icon.png
+Name: Rose 🌹
+Sileodepiction: https://repo.litten.love/depictions/rse/rse.json
+
+Package: sh.litten.rose
+Version: 6.0.2
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 4492
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/sh.litten.rose_6.0.2_iphoneos-arm.deb
+Size: 936252
+MD5sum: 6d071aeddf47550373bef9e256785cc6
+SHA1: f8a299eafe8e6a507438d8c7da04f93cfba12756
+SHA256: d432ced41b072ece7bc60e98eca2135e40a62a2be831fb5c2114ba6aa5eb8c8e
 Section: Tweaks
 Description: Being Peeped By A Rose Doesn't Feel That Good, It's Time To Change That
 Author: Litten <hiya@litten.love>

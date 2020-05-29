@@ -2,7 +2,13 @@
    "class":"FeaturedBannersView",
    "itemSize":"{263, 148}",
    "itemCornerRadius":10,
-   "banners":[  
+   "banners":[
+      {  
+         "url":"https://repo.litten.love/depictions/drs/assets/Banner.png",
+         "title":"Dress",
+         "package":"love.litten.dress",
+         "hideShadow":true
+      },  
       {  
          "url":"https://repo.litten.love/depictions/rse/assets/Banner.png",
          "title":"Rose",

@@ -41,12 +41,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.4.2",
+                    "text": "1.5",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "04-28-2020",
+                    "text": "05-21-2020",
                     "title": "Last Time Updated"
                 },
                 {
@@ -87,8 +87,140 @@
         },
         {
             "class": "DepictionStackView",
+            "tabname": "More Info",
+            "views": [
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Position And Size",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- custom values with sliders",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Moon Options",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- color moon purple\r\n- glowing moon",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Custom Glow Settings",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- purple glow if purple moon\r\n- custom glow radius\r\n- custom glow opacity",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Moon Icon",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- there are 9 moon icons available to choose from",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Sun Icon",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- can be adjusted like the moon icon",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Ringer Icon",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- same values as the moon icon",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Status Bar Coloring",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- purple items (beta)\r\n- purple status bar background",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Miscellaneous",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- remove dnd banner",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.5",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added An Option To Have A Purple Status Bar Background While DND Is Active",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "Version 1.4.2",
@@ -110,7 +242,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- LastLook Compatibility\r\n- Little Performance Improvements\r\n- Respring Buttons Now Resprings Back Into Lune's Settings",
+                    "markdown": "- LastLook Compatibility\r\n- Little Performance Improvements\r\n- Respring Button Now Resprings Back Into Lune's Settings",
                     "useSpacing": false
                 },
                 {

@@ -245,6 +245,50 @@
 
         }
 
+        @media only screen and (max-width: 1600px) {
+
+            .about .container #icon {
+
+                    height: 220px;
+
+            }
+
+            .about .container #header, #shortDescription {
+
+                    font-size: 64px;
+                    transform: translateY(100px);
+
+            }
+
+            .about .container #shortDescription {
+
+                    font-size: 26px;
+
+            }
+
+            .screenshots .container .ssList {
+
+                    height: 400px;
+                    margin-right: 100px;
+                    margin-left: 100px;
+                    transform: translateY(0px);
+
+            }
+
+            .screenshots .container li {
+
+                    padding: 10px;
+
+            }
+
+                .screenshots .container li img {
+
+                    height: 380px;
+
+            }
+
+        }
+
         @media only screen and (max-width: 1366px) {
 
             .about .container {
@@ -298,6 +342,50 @@
 
             }
 
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            .about .container #icon {
+
+                height: 170px;
+
+            }
+
+            .about .container #header, #shortDescription {
+
+                font-size: 42px;
+                transform: translateY(100px);
+
+            }
+
+            .about .container #shortDescription {
+
+                font-size: 23px;
+
+            }
+
+            .screenshots .container .ssList {
+
+                height: 300px;
+                margin-right: 100px;
+                margin-left: 100px;
+                transform: translateY(-40px);
+
+            }
+
+            .screenshots .container li {
+
+                padding: 10px;
+
+            }
+
+            .screenshots .container li img {
+
+                height: 270px;
+
+            }
+            
         }
 
         @media only screen and (max-width: 1112px) {
@@ -579,10 +667,10 @@
         <div class="container">
 
             <img id="icon" src="assets/icon.png" draggable="false">
-            <span id="header">Aestea<br>
+            <span id="header">Dress<br>
             <span id="shortDescription">
-                An Aesthetic Look To<br>
-                Your Loved Connectivity Toggles</span></span>
+                Dress Up<br>
+                Your Lockscreen</span></span>
 
                 <div class="more">
 
@@ -632,16 +720,72 @@
 
             <div class="details" id="details">
 
-                <h1>Aestea</h1>
+                <h1>Dress</h1>
 
                 <h1 class="sectionHeader">Features:</h1>
                 <ul>
                     
-                    <h3>State Coloring:</h3>
-                    <li>- cc toggle-off and on state are customizable</li>
+                    <h3>Time And Date</h3>
+                    <li><span>- you can hide:</span> time, date, lunar</li>
+                    <li>- change alpha - opacity</li>
+                    <li>- change alignment</li>
+                    <li>- custom font / font size</li>
+                    <li>- use rounded font</li>
+                    <li>- use italic font</li>
+                    <li>- use compact date format</li>
 
-                    <h3>Toggle Coloring:</h3>
-                    <li>- every toggle can have a different color</li>
+                    <h3>FaceID Lock</h3>
+                    <li>- hide the lock</li>
+                    <li>- change alpha - opacity</li>
+                    <li>- alignment</li>
+                    <li>- size</li>
+
+                    <h3>Homebar</h3>
+                    <li>- hide the homebar</li>
+                    <li>- change alpha - opacity</li>
+
+                    <h3>Page Dots</h3>
+                    <li>- hide the page dots</li>
+                    <li>- change alpha - opacity</li>
+
+                    <h3>CC Grabber</h3>
+                    <li>- hide the cc grabber</li>
+                    <li>- change alpha - opacity</li>
+
+                    <h3>Unlock Text</h3>
+                    <li>- hide the text</li>
+                    <li>- custom text</li>
+                    
+                    <h3>Notifications</h3>
+                    <li><span>- you can hide:</span> no older notifications text, notification center text, notifications clear button</li>
+                    <li>- change notification cells alpha - opacity</li>
+                    <li>- change notification hint alpha - opacity</li>
+                    <li>- change notifications header - opacity</li>
+                    <li>- custom no older notifications text</li>
+                    <li>- custom notification center text</li>
+                    <li>- new scroll reveal animation</li>
+                    <li>- hide dnd banner</li>
+
+                    <h3>Quick Actions</h3>
+                    <li>- hide flashlight button</li>
+                    <li>- hide camera button</li>
+                    <li>- change flashlight button alpha - opacity</li>
+                    <li>- change camera button alpha - opacity</li>
+                    <li>- custom x, y axis</li>
+
+                    <h3>Evanesco Mode</h3>
+                    <li><span>enable for:</span> time and date, faceid lock, homebar, page dots, notification cells, no older notification text, notification header, unlock text, cc grabber, quick actions</li>
+                    <li>- inactivity duration</li>
+                    <li>- fade duration</li>
+                    <li>- fade alpha - opacity</li>
+
+                    <h3>Custom Auto Lock Duration</h3>
+                    <li>- Default</li>
+                    <li>- 10 Seconds</li>
+                    <li>- 15 Seconds</li>
+                    <li>- 20 Seconds</li>
+                    <li>- 25 Seconds</li>
+                    <li>- 30 Seconds</li>
 
                     <h3>Other Options:</h3>
                     <li>- Respring Button</li>
@@ -651,11 +795,11 @@
                     <li>- beautiful design</li>
 
                 </ul>
-
+                
                 <h1 class="sectionHeader">Compatibility:</h1>
                 <ul>
 
-                    <li><span>OS:</span> iOS 13.0 - latest iOS 13</li>
+                    <li><span>OS:</span> iOS 12.0 (some things may not work on iOS 12) - latest iOS 13</li>
                     <li><span>devices:</span> all devices are supported</li>
 
                 </ul>
@@ -664,12 +808,12 @@
                 <ul>
 
                     <li><span>developer:</span> Litten</li>
-                    <li><span>current version:</span> 1.1.4</li>
-                    <li><span>last time updated:</span> 04.28.2020</li>
-                    <li><span>released:</span> 02.23.2020</li>
+                    <li><span>current version:</span> 1.1</li>
+                    <li><span>last time updated:</span> 05.29.2020</li>
+                    <li><span>released:</span> 05.18.2020</li>
                     <li><span>price:</span> free</li>
-                    <li><span>identifier:</span> sh.litten.aestea</li>
-                    <li><span>dependencies:</span> mobilesubstrate, preferenceloader, ws.hbang.common(>= 1.14), firmware(>= 11), com.spark.libsparkcolourpicker</li>
+                    <li><span>identifier:</span> love.litten.dress</li>
+                    <li><span>dependencies:</span> mobilesubstrate, preferenceloader, ws.hbang.common(>= 1.14), firmware(>= 12)</li>
                     <li><span>conflicts:</span> none</li>
 
                 </ul>
@@ -680,50 +824,10 @@
 
                 <h1>Changelog</h1>
 
-                <li class="versionNumber">1.1.4:</li>
-                <ul>
-
-                    <li>- New Preferences Design</li>
-                    <li>- Changed One Link</li>
-
-                </ul>
-
-                <br>
-
-                <li class="versionNumber">1.1.3:</li>
-                <ul>
-
-                    <li>- Updated Links In Preferences</li>
-
-                </ul>
-
-                <br>
-
-                <li class="versionNumber">1.1.2:</li>
-                <ul>
-
-                    <li>- Fixed Re-/Jailbreak Issues</li>
-
-                </ul>
-
-                <br>
-
-                <li class="versionNumber">1.1.1:</li>
-                <ul>
-
-                    <li>- Fixed The Color Pickers Not Showing Up</li>
-
-                </ul>
-
-                <br>
-
                 <li class="versionNumber">1.1:</li>
                 <ul>
 
-                    <li>- Re-added The Correct Artwork, My Bad</li>
-                    <li>- Performance Improvements</li>
-                    <li>- Added Disabled State Coloring</li>
-                    <li>- Small Changes To The Preferences Look</li>
+                    <li>- Added Italic Font Option</li>
 
                 </ul>
 
