@@ -45,12 +45,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.1",
+                    "text": "1.3",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "05-29-2020",
+                    "text": "06-03-2020",
                     "title": "Last Time Updated"
                 },
                 {
@@ -123,6 +123,20 @@
                 },
                 {   
                     "class": "DepictionSubheaderView",
+                    "title": "Status Bar",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- hide the status bar\r\n- change alpha - opacity",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
                     "title": "Homebar",
                     "useBoldText": true
                 },
@@ -151,12 +165,12 @@
                 },
                 {   
                     "class": "DepictionSubheaderView",
-                    "title": "CC Grabber",
+                    "title": "Media Player",
                     "useBoldText": true
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- hide the cc grabber\r\n- change alpha - opacity",
+                    "markdown": "- hide the media player\r\n- change alpha - opacity",
                     "useSpacing": false
                 },
                 {
@@ -165,12 +179,12 @@
                 },
                 {   
                     "class": "DepictionSubheaderView",
-                    "title": "Unlock Text",
+                    "title": "CC Grabber",
                     "useBoldText": true
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- hide the text\r\n- custom text",
+                    "markdown": "- hide the cc grabber\r\n- change alpha - opacity",
                     "useSpacing": false
                 },
                 {
@@ -193,12 +207,26 @@
                 },
                 {   
                     "class": "DepictionSubheaderView",
+                    "title": "Unlock Text",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- hide the text\r\n- custom text\r\n- show last time unlocked\r\n- configure last time unlocked",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
                     "title": "Quick Actions",
                     "useBoldText": true
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- hide flashlight button\r\n- hide camera button\r\n- change flashlight button alpha - opacity\r\n- change camera button alpha - opacity\r\n- custom x, y axis",
+                    "markdown": "- hide flashlight button\r\n- hide camera button\r\n- change flashlight button alpha - opacity\r\n- change camera button alpha - opacity\r\n- disable today swipe\r\n- disable camera swipe\r\n- custom x, y axis",
                     "useSpacing": false
                 },
                 {
@@ -212,7 +240,21 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "enable for:time and date, faceid lock, homebar, page dots, notification cells, no older notification text, notification header, unlock text, cc grabber, quick actions\r\n- inactivity duration\r\n- fade duration\r\n- fade alpha - opacity",
+                    "markdown": "enable for:time and date, faceid lock, homebar, page dots, notification cells, no older notification text, notification header, unlock text, cc grabber, quick actions, complications, grupi, axon\r\n- inactivity duration\r\n- fade duration\r\n- fade alpha - opacity",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "ColorFlow Coloring",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- enable for: time and date, faceid lock, homebar, page dots, unlock text, quick actions",
                     "useSpacing": false
                 },
                 {
@@ -239,6 +281,34 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Option To Disable Today Swipe\r\n- Added Option To Disable Camera Swipe\r\n- Added Option To Use Last Time Locked Instead Of Unlocked\r\n- Added Option To Show Date In Last Time Unlocked\r\n- Added Option To Only Show Date And Time For Last Time Unlocked\r\n- Temporarily Disabled Complications Support",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {   
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Status Bar Options (iOS 13)\r\n- Added Media Player Options (iOS 13)\r\n- Added Last Time Unlocked\r\n- Added Option To Hide FaceID Lock Label\r\n- Added ColorFlow Support\r\n- Added Evanesco Status Bar Support\r\n- Added Evanesco Media Player Support\r\n- Added Evanesco Complications Support (Complications Update Required)\r\n- Added Evanesco Axon Support\r\n- Added Evanesco Grupi Support\r\n- Added iOS 12 Support For Custom Lock Duration\r\n- Disabled Evanesco Mode In Notification Center\r\n- Cell Fixes",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
                 {   
                     "class": "DepictionSubheaderView",
                     "title": "Version 1.1",

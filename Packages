@@ -36,6 +36,63 @@ Icon: https://repo.litten.love/depictions/drs/assets/icon.png
 Name: Dress 👗
 Sileodepiction: https://repo.litten.love/depictions/drs/drs.json
 
+Package: love.litten.dress
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 1208
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/love.litten.dress_1.1.1_iphoneos-arm.deb
+Size: 640574
+MD5sum: e54786d53db8593805ce25eb7d2b4f49
+SHA1: ca97e3fc7d54f2fff16325216d7230df3b6ad2ae
+SHA256: 5f5d65e68e88e7b3e4c8941389e87ea02baa4a76da7737da03822f2dc67a0756
+Section: Tweaks
+Description: Dress Up Your Lockscreen
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/drs/index.html
+Icon: https://repo.litten.love/depictions/drs/assets/icon.png
+Name: Dress 👗
+Sileodepiction: https://repo.litten.love/depictions/drs/drs.json
+
+Package: love.litten.dress
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 1528
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/love.litten.dress_1.2_iphoneos-arm.deb
+Size: 665852
+MD5sum: 20ef14ed82618ef566ad668770e7c442
+SHA1: e0db2281b2ced723534b3928ca5088cee03e9c18
+SHA256: 8fc360790648fc0a318568e2948bd00869d933d7620eb8ff930f24283dad2472
+Section: Tweaks
+Description: Dress Up Your Lockscreen
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/drs/index.html
+Icon: https://repo.litten.love/depictions/drs/assets/icon.png
+Name: Dress 👗
+Sileodepiction: https://repo.litten.love/depictions/drs/drs.json
+
+Package: love.litten.dress
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Litten <hiya@litten.love>
+Installed-Size: 1528
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/love.litten.dress_1.3_iphoneos-arm.deb
+Size: 667142
+MD5sum: 51eed1523b4dc7d24d73dc4394d1d674
+SHA1: 4656b6b2bbd3d250d76a05f2a32b76eff44f4056
+SHA256: 95ec9c16a3b1d3d437dbaba90f07bfa491a4c766c0ca1ea718e411afc6c96992
+Section: Tweaks
+Description: Dress Up Your Lockscreen
+Author: Litten <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/drs/index.html
+Icon: https://repo.litten.love/depictions/drs/assets/icon.png
+Name: Dress 👗
+Sileodepiction: https://repo.litten.love/depictions/drs/drs.json
+
 Package: sh.litten.aestea
 Version: 1.0
 Architecture: iphoneos-arm
